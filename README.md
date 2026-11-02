@@ -1,33 +1,52 @@
 # Candidate Hub
 
-A responsive Nigerian Senate and House of Representatives directory prototype. All people, parties, and platforms are fictional sample data, clearly labelled throughout the site.
+An interactive Nigerian candidate directory. Select a state on the map, choose **Senate**, then filter by **senatorial district / constituency** to see the candidates and their details.
 
 ## Run locally
 
-Requires Node.js 20 or newer. No dependency installation is needed.
+Requires Node.js 20 or newer. No dependency installation is needed to run the site.
 
 ```sh
 npm run dev
+npm test
 ```
 
-The development server listens on port 3000. Set `PORT` to override it. Run `npm test` for search, filter, and map tests.
+The development server listens on port 3000; set `PORT` to override it.
+
+## Senate data and provenance
+
+The site contains **1,303 records across 109 senatorial districts, all 36 states and FCT**, transcribed from the user-supplied **2027 SENATE FINAL LIST OF CANDIDATES.pdf** (127 pages). The supplied document's authenticity and current candidate status have not been independently verified.
+
+Profiles display the printed name, party, age, gender, PWD entry, qualifications and remarks. Every profile links to its source PDF page and printed serial number. Serial numbers restart in each state, so IDs include both state and serial number. Ages are shown as listed, not recalculated.
+
+Names, party abbreviations and qualifications preserve the source spelling; whitespace is normalized. State labels match the map and district labels use title case. For example, the source's “NASSARAWA” district spelling remains intact under the map state Nasarawa. The PDF has 72 blank qualification cells; these and blank remarks display as **Not stated in PDF**. No biographies or policy positions are inferred. Former fictional profiles have been removed. House of Representatives data has not been supplied and is shown as unavailable.
+
+- `senate-data.js`: generated records and source metadata.
+- `sources/senate-2027.pdf`: original source document.
+- `sources/senate-import-report.json`: state/district/page counts, validation results and blank-field summary.
+- `scripts/import_senate.py`: reproducible extraction from table coordinates, excluding watermark/signature text.
+
+To reproduce or verify the import, install the extraction dependency in a Python virtual environment:
+
+```sh
+python3 -m venv /tmp/candidate-import-venv
+/tmp/candidate-import-venv/bin/pip install -r scripts/requirements-import.txt
+/tmp/candidate-import-venv/bin/python scripts/import_senate.py --check
+```
+
+Omit `--check` to regenerate the committed dataset and report from the source PDF. A future document with a different table layout requires reviewing the importer rather than assuming the same extraction rules work.
 
 ## Features
 
-- Homepage map includes all 36 Nigerian states and the FCT. Click a state or use the accessible dropdown, choose Senate or House of Representatives, then open a contestant profile.
-- States without sample contestants show an explicit empty state; no real election coverage is implied.
-- Search by name, constituency, background, party, or priority.
-- Filter by state, office, party, and policy priority; sort by name.
-- Open candidate profiles and compare up to three candidates.
-- Save candidates in browser local storage, with a session fallback if storage is unavailable.
-- Responsive layouts, labelled controls, keyboard-accessible dialogs, and reduced-motion support.
+- Interactive map with keyboard controls and a state dropdown.
+- Dependent Senate district filters in the map dialog and directory.
+- Search by name, party, constituency or qualification; filter by state, office, district and party.
+- Paginated results (24 per page), with sorting and saved candidates in browser local storage.
+- Candidate detail views and side-by-side comparison of up to three records.
+- Responsive layouts and PDF source links for each record.
 
-The site uses native JavaScript, CSS, and a small Node HTTP server. `data.js` holds the fictional dataset, `map-data.js` contains the local state geometry, `app.js` implements interactions, and `styles.css` defines the visual design. Map source and license are in `MAP-LICENSE.txt`. There are no external fonts, image services, APIs, or required credentials.
-
-To add contestants, extend `candidates` in `data.js` with a unique ID, name, initials, exact state name, district, office (`Senate` or `House of Representatives`), party, colour class, occupation, priorities, biography, and proposals. Before publishing real records, add election-year and source verification information and replace the demo labels as part of a dedicated data integration step.
-
-This prototype has no authentication, administrative publishing workflow, or verified live election data. Those are separate next steps before use as a public election information service. The included server is intended for local development; the frontend files can also be hosted on a static hosting service.
+The frontend uses native JavaScript and CSS; `server.js` is a small local development server. `map-data.js` contains local state geometry with attribution in `MAP-LICENSE.txt`. There are no external APIs, fonts, image services, required credentials or application runtime dependencies.
 
 ## GitHub Pages
 
-The frontend uses relative asset and module URLs, so it can run under a repository URL such as `https://bimifolu.github.io/election-candidate-hub/`. In the repository's **Settings → Pages**, select **Deploy from a branch**, choose **main** and **/ (root)**, then save. GitHub Pages serves the frontend files directly; it does not run `server.js`.
+All frontend URLs are relative and work at `https://bimifolu.github.io/election-candidate-hub/`. In **Settings → Pages**, select **Deploy from a branch**, **main**, and **/ (root)**. GitHub Pages serves the frontend and source PDF directly; it does not run `server.js`.

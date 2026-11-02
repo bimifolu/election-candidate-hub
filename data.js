@@ -1,13 +1,29 @@
-export const candidates = [
-  { id: 'amara', name: 'Amara Okafor', initials: 'AO', state: 'Lagos', district: 'Lagos Central', office: 'Senate', party: 'Civic Alliance', color: 'rose', occupation: 'Public policy researcher', priorities: ['Education', 'Healthcare', 'Accountability'], bio: 'Amara is a fictional public policy researcher whose sample platform focuses on accessible schools, stronger primary care, and transparent public spending.', proposals: ['Publish a public dashboard of constituency spending.', 'Advocate for better funding for primary healthcare.', 'Support teacher training and accessible learning resources.'] },
-  { id: 'tunde', name: 'Tunde Adebayo', initials: 'TA', state: 'Lagos', district: 'Ikeja Federal Constituency', office: 'House of Representatives', party: 'Progress Forum', color: 'sage', occupation: 'Small business advocate', priorities: ['Jobs & economy', 'Infrastructure', 'Youth'], bio: 'Tunde is a fictional small business advocate. His sample platform explores practical support for entrepreneurs, local transport, and opportunities for young people.', proposals: ['Advocate for simpler access to small business support.', 'Support apprenticeships with local employers.', 'Track the delivery of constituency infrastructure projects.'] },
-  { id: 'zainab', name: 'Zainab Bello', initials: 'ZB', state: 'Kaduna', district: 'Kaduna North', office: 'Senate', party: 'People’s Coalition', color: 'sand', occupation: 'Community health practitioner', priorities: ['Healthcare', 'Women & inclusion', 'Education'], bio: 'Zainab is a fictional community health practitioner. Her sample platform centres on maternal healthcare, inclusive public services, and girls’ education.', proposals: ['Advocate for better maternal care in community clinics.', 'Support accessible public facilities.', 'Promote school retention and vocational learning.'] },
-  { id: 'chidi', name: 'Chidi Nwosu', initials: 'CN', state: 'Enugu', district: 'Enugu East', office: 'Senate', party: 'Progress Forum', color: 'lavender', occupation: 'Civil engineer', priorities: ['Infrastructure', 'Jobs & economy', 'Accountability'], bio: 'Chidi is a fictional civil engineer whose sample platform focuses on resilient infrastructure, open procurement, and employment through local enterprise.', proposals: ['Support transparent procurement reporting.', 'Advocate for maintenance of existing public infrastructure.', 'Promote skills training linked to local industry.'] },
-  { id: 'fatima', name: 'Fatima Ibrahim', initials: 'FI', state: 'Kano', district: 'Nassarawa Federal Constituency', office: 'House of Representatives', party: 'Civic Alliance', color: 'peach', occupation: 'Educator & community organiser', priorities: ['Education', 'Youth', 'Women & inclusion'], bio: 'Fatima is a fictional educator. Her sample platform explores lifelong learning, youth participation, and equal access to economic opportunities.', proposals: ['Support community learning and literacy programmes.', 'Create opportunities for youth input into constituency priorities.', 'Advocate for inclusive skills and enterprise programmes.'] },
-  { id: 'emi', name: 'Emi George', initials: 'EG', state: 'Rivers', district: 'Port Harcourt I Federal Constituency', office: 'House of Representatives', party: 'People’s Coalition', color: 'blue', occupation: 'Environmental researcher', priorities: ['Environment', 'Healthcare', 'Jobs & economy'], bio: 'Emi is a fictional environmental researcher. Their sample platform connects environmental restoration with public health and sustainable local livelihoods.', proposals: ['Advocate for public environmental monitoring data.', 'Support training for sustainable local industries.', 'Promote health research in communities affected by pollution.'] },
-];
+import { senateCandidates, senateSource } from './senate-data.js';
+export { senateSource };
 
-export function filterCandidates(items, { query = '', state = '', office = '', party = '', issue = '', savedOnly = false, saved = [] } = {}) {
+const colors = ['rose', 'sage', 'sand', 'lavender', 'peach', 'blue'];
+// Keep the supplied document's names and qualifications intact. These extra
+// fields only support the directory's visual presentation.
+export const candidates = senateCandidates.map((candidate, index) => ({
+  ...candidate,
+  initials: candidate.name.trim().split(/\s+/).slice(0, 2).map(word => [...word][0]).join(''),
+  color: colors[index % colors.length],
+}));
+
+export function getDistricts(items, state, office = 'Senate') {
+  if (!state) return [];
+  return [...new Set(items.filter(c => c.state === state && c.office === office).map(c => c.district))].sort((a, b) => a.localeCompare(b));
+}
+
+export function filterCandidates(items, { query = '', state = '', office = '', district = '', party = '', savedOnly = false, saved = [] } = {}) {
   const term = query.trim().toLocaleLowerCase();
-  return items.filter(c => (!term || [c.name, c.state, c.district, c.party, c.occupation, ...c.priorities].join(' ').toLocaleLowerCase().includes(term)) && (!state || c.state === state) && (!office || c.office === office) && (!party || c.party === party) && (!issue || c.priorities.includes(issue)) && (!savedOnly || saved.includes(c.id)));
+  const savedIds = new Set(saved);
+  return items.filter(c => (
+    (!term || [c.name, c.state, c.district, c.party, c.qualifications].filter(Boolean).join(' ').toLocaleLowerCase().includes(term)) &&
+    (!state || c.state === state) &&
+    (!office || c.office === office) &&
+    (!district || c.district === district) &&
+    (!party || c.party === party) &&
+    (!savedOnly || savedIds.has(c.id))
+  ));
 }

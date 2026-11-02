@@ -1,18 +1,37 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { candidates, filterCandidates } from '../data.js';
+import { candidates, filterCandidates, getDistricts } from '../data.js';
 
-test('search matches names, constituencies and priorities without case sensitivity', () => {
-  assert.deepEqual(filterCandidates(candidates, { query: '  AMARA  ' }).map(c => c.id), ['amara']);
-  assert.deepEqual(filterCandidates(candidates, { query: 'Ikeja' }).map(c => c.id), ['tunde']);
-  assert.equal(filterCandidates(candidates, { query: 'Healthcare' }).length, 3);
+const records = [
+  { id: 'one', name: 'ALPHA CANDIDATE', state: 'Lagos', district: 'Lagos Central', office: 'Senate', party: 'AAA', qualifications: 'FSLC B.Sc.' },
+  { id: 'two', name: 'BETA CANDIDATE', state: 'Lagos', district: 'Lagos East', office: 'Senate', party: 'BBB', qualifications: '' },
+  { id: 'three', name: 'GAMMA CANDIDATE', state: 'Ogun', district: 'Ogun Central', office: 'Senate', party: 'AAA', qualifications: 'SSCE' },
+  { id: 'four', name: 'DELTA CANDIDATE', state: 'Lagos', district: 'Ikeja', office: 'House of Representatives', party: 'AAA', qualifications: 'SSCE' },
+];
+
+test('search trims input and matches names, constituencies, parties and qualifications', () => {
+  assert.deepEqual(filterCandidates(records, { query: '  alpha  ' }).map(c => c.id), ['one']);
+  assert.deepEqual(filterCandidates(records, { query: 'lagos east' }).map(c => c.id), ['two']);
+  assert.deepEqual(filterCandidates(records, { query: 'b.sc.' }).map(c => c.id), ['one']);
+  assert.equal(filterCandidates(records, { query: 'AAA' }).length, 3);
 });
-test('filters combine and do not return candidates outside the selected office', () => {
-  assert.deepEqual(filterCandidates(candidates, { state: 'Lagos', office: 'Senate', issue: 'Education' }).map(c => c.id), ['amara']);
-  assert.equal(filterCandidates(candidates, { state: 'Lagos', party: 'People’s Coalition' }).length, 0);
+
+test('state, office, district and party filters intersect', () => {
+  assert.deepEqual(filterCandidates(records, { state: 'Lagos', office: 'Senate', district: 'Lagos Central', party: 'AAA' }).map(c => c.id), ['one']);
+  assert.equal(filterCandidates(records, { state: 'Lagos', district: 'Ogun Central' }).length, 0);
+  assert.equal(filterCandidates(records, { district: 'Lagos East', party: 'AAA' }).length, 0);
+  assert.equal(filterCandidates(records, { office: 'House of Representatives' }).length, 1);
 });
-test('saved filter respects the shortlist and other filters', () => {
-  assert.equal(filterCandidates(candidates, { savedOnly: true }).length, 0);
-  assert.deepEqual(filterCandidates(candidates, { savedOnly: true, saved: ['amara', 'emi'], state: 'Rivers' }).map(c => c.id), ['emi']);
-  assert.equal(filterCandidates(candidates).length, 6);
+
+test('district choices depend on the selected state and office', () => {
+  assert.deepEqual(getDistricts(records, 'Lagos'), ['Lagos Central', 'Lagos East']);
+  assert.deepEqual(getDistricts(records, 'Lagos', 'House of Representatives'), ['Ikeja']);
+  assert.deepEqual(getDistricts(records, ''), []);
+  assert.deepEqual(getDistricts(records, 'Kaduna'), []);
+});
+
+test('saved filtering intersects the other filters without retaining obsolete demo IDs', () => {
+  assert.equal(filterCandidates(records, { savedOnly: true }).length, 0);
+  assert.deepEqual(filterCandidates(records, { savedOnly: true, saved: ['one', 'two'], district: 'Lagos East' }).map(c => c.id), ['two']);
+  assert.equal(filterCandidates(candidates, { savedOnly: true, saved: ['amara', 'zainab', 'tunde'] }).length, 0);
 });

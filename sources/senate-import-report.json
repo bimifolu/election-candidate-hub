@@ -1,0 +1,1122 @@
+{
+  "source": {
+    "title": "PRESIDENTIAL AND NATIONAL ASSEMBLY ELECTIONS FOR JAN, 2027 - SENATORIAL DISTRICT — FINAL LIST OF CANDIDATES",
+    "filename": "2027 SENATE FINAL LIST OF CANDIDATES.pdf",
+    "url": "./sources/senate-2027.pdf",
+    "pages": 127,
+    "candidateCount": 1303,
+    "sha256": "5f02f98a5b406dff57e7e7093590573c491c9f66aa640c73a9f1b272f477590a"
+  },
+  "importer": {
+    "python": "3",
+    "PyMuPDF": "1.26.6"
+  },
+  "method": "PyMuPDF text spans; ten columns from vector table borders; rows from printed serial-number baselines; 10pt table text excludes watermark/signature; whitespace normalised only.",
+  "serialNumberScope": "Numbers restart at 1 for each state; IDs include the state slug.",
+  "stateCount": 37,
+  "districtCount": 109,
+  "stateCounts": {
+    "Abia": 40,
+    "Adamawa": 38,
+    "Akwa Ibom": 37,
+    "Anambra": 42,
+    "Bauchi": 31,
+    "Bayelsa": 45,
+    "Benue": 39,
+    "Borno": 33,
+    "Cross River": 25,
+    "Delta": 43,
+    "Ebonyi": 30,
+    "Edo": 26,
+    "Ekiti": 19,
+    "Enugu": 38,
+    "Federal Capital Territory": 20,
+    "Gombe": 37,
+    "Imo": 45,
+    "Jigawa": 31,
+    "Kaduna": 33,
+    "Kano": 48,
+    "Katsina": 23,
+    "Kebbi": 35,
+    "Kogi": 42,
+    "Kwara": 35,
+    "Lagos": 36,
+    "Nasarawa": 36,
+    "Niger": 34,
+    "Ogun": 37,
+    "Ondo": 31,
+    "Osun": 39,
+    "Oyo": 38,
+    "Plateau": 32,
+    "Rivers": 41,
+    "Sokoto": 36,
+    "Taraba": 35,
+    "Yobe": 36,
+    "Zamfara": 37
+  },
+  "districtCounts": {
+    "Abia": {
+      "Abia Central": 11,
+      "Abia North": 15,
+      "Abia South": 14
+    },
+    "Adamawa": {
+      "Adamawa Central": 16,
+      "Adamawa North": 11,
+      "Adamawa South": 11
+    },
+    "Akwa Ibom": {
+      "Akwa Ibom North East": 13,
+      "Akwa Ibom North West": 13,
+      "Akwa Ibom South": 11
+    },
+    "Anambra": {
+      "Anambra Central": 13,
+      "Anambra North": 15,
+      "Anambra South": 14
+    },
+    "Bauchi": {
+      "Bauchi Central": 10,
+      "Bauchi North": 9,
+      "Bauchi South": 12
+    },
+    "Bayelsa": {
+      "Bayelsa Central": 15,
+      "Bayelsa East": 13,
+      "Bayelsa West": 17
+    },
+    "Benue": {
+      "Benue North East": 12,
+      "Benue North West": 13,
+      "Benue South": 14
+    },
+    "Borno": {
+      "Borno Central": 12,
+      "Borno North": 9,
+      "Borno South": 12
+    },
+    "Cross River": {
+      "Cross River Central": 8,
+      "Cross River North": 7,
+      "Cross River South": 10
+    },
+    "Delta": {
+      "Delta Central": 16,
+      "Delta North": 14,
+      "Delta South": 13
+    },
+    "Ebonyi": {
+      "Ebonyi Central": 7,
+      "Ebonyi North": 12,
+      "Ebonyi South": 11
+    },
+    "Edo": {
+      "Edo Central": 7,
+      "Edo North": 11,
+      "Edo South": 8
+    },
+    "Ekiti": {
+      "Ekiti Central": 8,
+      "Ekiti North": 6,
+      "Ekiti South": 5
+    },
+    "Enugu": {
+      "Enugu East": 12,
+      "Enugu North": 13,
+      "Enugu West": 13
+    },
+    "Federal Capital Territory": {
+      "Federal Capital Territory": 20
+    },
+    "Gombe": {
+      "Gombe Central": 12,
+      "Gombe North": 14,
+      "Gombe South": 11
+    },
+    "Imo": {
+      "Imo East": 16,
+      "Imo North": 15,
+      "Imo West": 14
+    },
+    "Jigawa": {
+      "Jigawa North - East": 10,
+      "Jigawa North - West": 10,
+      "Jigawa South - West": 11
+    },
+    "Kaduna": {
+      "Kaduna Central": 13,
+      "Kaduna North": 12,
+      "Kaduna South": 8
+    },
+    "Kano": {
+      "Kano Central": 18,
+      "Kano North": 15,
+      "Kano South": 15
+    },
+    "Katsina": {
+      "Katsina Central": 7,
+      "Katsina North": 8,
+      "Katsina South": 8
+    },
+    "Kebbi": {
+      "Kebbi Central": 14,
+      "Kebbi North": 11,
+      "Kebbi South": 10
+    },
+    "Kogi": {
+      "Kogi Central": 11,
+      "Kogi East": 17,
+      "Kogi West": 14
+    },
+    "Kwara": {
+      "Kwara Central": 13,
+      "Kwara North": 11,
+      "Kwara South": 11
+    },
+    "Lagos": {
+      "Lagos Central": 11,
+      "Lagos East": 10,
+      "Lagos West": 15
+    },
+    "Nasarawa": {
+      "Nassarawa North": 12,
+      "Nassarawa South": 13,
+      "Nassarawa West": 11
+    },
+    "Niger": {
+      "Niger East": 11,
+      "Niger North": 12,
+      "Niger South": 11
+    },
+    "Ogun": {
+      "Ogun Central": 13,
+      "Ogun East": 12,
+      "Ogun West": 12
+    },
+    "Ondo": {
+      "Ondo Central": 10,
+      "Ondo North": 10,
+      "Ondo South": 11
+    },
+    "Osun": {
+      "Osun Central": 17,
+      "Osun East": 9,
+      "Osun West": 13
+    },
+    "Oyo": {
+      "Oyo Central": 11,
+      "Oyo North": 12,
+      "Oyo South": 15
+    },
+    "Plateau": {
+      "Plateau Central": 11,
+      "Plateau North": 12,
+      "Plateau South": 9
+    },
+    "Rivers": {
+      "Rivers East": 12,
+      "Rivers South East": 13,
+      "Rivers West": 16
+    },
+    "Sokoto": {
+      "Sokoto East": 12,
+      "Sokoto North": 11,
+      "Sokoto South": 13
+    },
+    "Taraba": {
+      "Taraba Central": 14,
+      "Taraba North": 11,
+      "Taraba South": 10
+    },
+    "Yobe": {
+      "Yobe East": 12,
+      "Yobe North": 10,
+      "Yobe South": 14
+    },
+    "Zamfara": {
+      "Zamfara Central": 16,
+      "Zamfara North": 9,
+      "Zamfara West": 12
+    }
+  },
+  "partyCounts": {
+    "A": 67,
+    "AA": 39,
+    "AAC": 25,
+    "ADC": 108,
+    "ADP": 92,
+    "APC": 109,
+    "APGA": 33,
+    "APM": 104,
+    "APP": 69,
+    "BP": 7,
+    "DLA": 27,
+    "LP": 68,
+    "NDC": 99,
+    "NDP": 32,
+    "NNPP": 21,
+    "NRM": 65,
+    "PDP": 101,
+    "PRP": 27,
+    "SDP": 95,
+    "YP": 4,
+    "YPP": 60,
+    "ZLP": 51
+  },
+  "sourceStateLabels": {
+    "Abia": "ABIA",
+    "Adamawa": "ADAMAWA",
+    "Akwa Ibom": "AKWA IBOM",
+    "Anambra": "ANAMBRA",
+    "Bauchi": "BAUCHI",
+    "Bayelsa": "BAYELSA",
+    "Benue": "BENUE",
+    "Borno": "BORNO",
+    "Cross River": "CROSS River",
+    "Delta": "DELTA",
+    "Ebonyi": "EBONYI",
+    "Edo": "EDO",
+    "Ekiti": "EKITI",
+    "Enugu": "ENUGU",
+    "Federal Capital Territory": "FCT",
+    "Gombe": "GOMBE",
+    "Imo": "IMO",
+    "Jigawa": "JIGAWA",
+    "Kaduna": "KADUNA",
+    "Kano": "KANO",
+    "Katsina": "KATSINA",
+    "Kebbi": "KEBBI",
+    "Kogi": "KOGI",
+    "Kwara": "KWARA",
+    "Lagos": "LAGOS",
+    "Nasarawa": "NASARAWA",
+    "Niger": "NIGER",
+    "Ogun": "OGUN",
+    "Ondo": "ONDO",
+    "Osun": "OSUN",
+    "Oyo": "OYO",
+    "Plateau": "PLATEAU",
+    "Rivers": "RIVERS",
+    "Sokoto": "SOKOTO",
+    "Taraba": "TARABA",
+    "Yobe": "YOBE",
+    "Zamfara": "ZAMFARA"
+  },
+  "pageCounts": [
+    {
+      "page": 1,
+      "rows": 9
+    },
+    {
+      "page": 2,
+      "rows": 14
+    },
+    {
+      "page": 3,
+      "rows": 14
+    },
+    {
+      "page": 4,
+      "rows": 3
+    },
+    {
+      "page": 5,
+      "rows": 8
+    },
+    {
+      "page": 6,
+      "rows": 12
+    },
+    {
+      "page": 7,
+      "rows": 11
+    },
+    {
+      "page": 8,
+      "rows": 7
+    },
+    {
+      "page": 9,
+      "rows": 8
+    },
+    {
+      "page": 10,
+      "rows": 12
+    },
+    {
+      "page": 11,
+      "rows": 12
+    },
+    {
+      "page": 12,
+      "rows": 5
+    },
+    {
+      "page": 13,
+      "rows": 8
+    },
+    {
+      "page": 14,
+      "rows": 12
+    },
+    {
+      "page": 15,
+      "rows": 11
+    },
+    {
+      "page": 16,
+      "rows": 11
+    },
+    {
+      "page": 17,
+      "rows": 10
+    },
+    {
+      "page": 18,
+      "rows": 13
+    },
+    {
+      "page": 19,
+      "rows": 8
+    },
+    {
+      "page": 20,
+      "rows": 10
+    },
+    {
+      "page": 21,
+      "rows": 13
+    },
+    {
+      "page": 22,
+      "rows": 13
+    },
+    {
+      "page": 23,
+      "rows": 9
+    },
+    {
+      "page": 24,
+      "rows": 9
+    },
+    {
+      "page": 25,
+      "rows": 12
+    },
+    {
+      "page": 26,
+      "rows": 17
+    },
+    {
+      "page": 27,
+      "rows": 1
+    },
+    {
+      "page": 28,
+      "rows": 10
+    },
+    {
+      "page": 29,
+      "rows": 12
+    },
+    {
+      "page": 30,
+      "rows": 11
+    },
+    {
+      "page": 31,
+      "rows": 9
+    },
+    {
+      "page": 32,
+      "rows": 12
+    },
+    {
+      "page": 33,
+      "rows": 4
+    },
+    {
+      "page": 34,
+      "rows": 12
+    },
+    {
+      "page": 35,
+      "rows": 16
+    },
+    {
+      "page": 36,
+      "rows": 15
+    },
+    {
+      "page": 37,
+      "rows": 12
+    },
+    {
+      "page": 38,
+      "rows": 15
+    },
+    {
+      "page": 39,
+      "rows": 3
+    },
+    {
+      "page": 40,
+      "rows": 11
+    },
+    {
+      "page": 41,
+      "rows": 14
+    },
+    {
+      "page": 42,
+      "rows": 1
+    },
+    {
+      "page": 43,
+      "rows": 9
+    },
+    {
+      "page": 44,
+      "rows": 10
+    },
+    {
+      "page": 45,
+      "rows": 10
+    },
+    {
+      "page": 46,
+      "rows": 17
+    },
+    {
+      "page": 47,
+      "rows": 11
+    },
+    {
+      "page": 48,
+      "rows": 9
+    },
+    {
+      "page": 49,
+      "rows": 11
+    },
+    {
+      "page": 50,
+      "rows": 8
+    },
+    {
+      "page": 51,
+      "rows": 13
+    },
+    {
+      "page": 52,
+      "rows": 12
+    },
+    {
+      "page": 53,
+      "rows": 4
+    },
+    {
+      "page": 54,
+      "rows": 11
+    },
+    {
+      "page": 55,
+      "rows": 14
+    },
+    {
+      "page": 56,
+      "rows": 14
+    },
+    {
+      "page": 57,
+      "rows": 6
+    },
+    {
+      "page": 58,
+      "rows": 9
+    },
+    {
+      "page": 59,
+      "rows": 12
+    },
+    {
+      "page": 60,
+      "rows": 10
+    },
+    {
+      "page": 61,
+      "rows": 10
+    },
+    {
+      "page": 62,
+      "rows": 13
+    },
+    {
+      "page": 63,
+      "rows": 10
+    },
+    {
+      "page": 64,
+      "rows": 11
+    },
+    {
+      "page": 65,
+      "rows": 14
+    },
+    {
+      "page": 66,
+      "rows": 16
+    },
+    {
+      "page": 67,
+      "rows": 7
+    },
+    {
+      "page": 68,
+      "rows": 10
+    },
+    {
+      "page": 69,
+      "rows": 11
+    },
+    {
+      "page": 70,
+      "rows": 2
+    },
+    {
+      "page": 71,
+      "rows": 10
+    },
+    {
+      "page": 72,
+      "rows": 13
+    },
+    {
+      "page": 73,
+      "rows": 12
+    },
+    {
+      "page": 74,
+      "rows": 12
+    },
+    {
+      "page": 75,
+      "rows": 16
+    },
+    {
+      "page": 76,
+      "rows": 14
+    },
+    {
+      "page": 77,
+      "rows": 11
+    },
+    {
+      "page": 78,
+      "rows": 11
+    },
+    {
+      "page": 79,
+      "rows": 13
+    },
+    {
+      "page": 80,
+      "rows": 8
+    },
+    {
+      "page": 81,
+      "rows": 13
+    },
+    {
+      "page": 82,
+      "rows": 12
+    },
+    {
+      "page": 83,
+      "rows": 3
+    },
+    {
+      "page": 84,
+      "rows": 8
+    },
+    {
+      "page": 85,
+      "rows": 11
+    },
+    {
+      "page": 86,
+      "rows": 12
+    },
+    {
+      "page": 87,
+      "rows": 5
+    },
+    {
+      "page": 88,
+      "rows": 10
+    },
+    {
+      "page": 89,
+      "rows": 17
+    },
+    {
+      "page": 90,
+      "rows": 7
+    },
+    {
+      "page": 91,
+      "rows": 9
+    },
+    {
+      "page": 92,
+      "rows": 12
+    },
+    {
+      "page": 93,
+      "rows": 13
+    },
+    {
+      "page": 94,
+      "rows": 3
+    },
+    {
+      "page": 95,
+      "rows": 10
+    },
+    {
+      "page": 96,
+      "rows": 14
+    },
+    {
+      "page": 97,
+      "rows": 7
+    },
+    {
+      "page": 98,
+      "rows": 10
+    },
+    {
+      "page": 99,
+      "rows": 14
+    },
+    {
+      "page": 100,
+      "rows": 14
+    },
+    {
+      "page": 101,
+      "rows": 1
+    },
+    {
+      "page": 102,
+      "rows": 10
+    },
+    {
+      "page": 103,
+      "rows": 13
+    },
+    {
+      "page": 104,
+      "rows": 14
+    },
+    {
+      "page": 105,
+      "rows": 1
+    },
+    {
+      "page": 106,
+      "rows": 9
+    },
+    {
+      "page": 107,
+      "rows": 12
+    },
+    {
+      "page": 108,
+      "rows": 11
+    },
+    {
+      "page": 109,
+      "rows": 10
+    },
+    {
+      "page": 110,
+      "rows": 13
+    },
+    {
+      "page": 111,
+      "rows": 14
+    },
+    {
+      "page": 112,
+      "rows": 4
+    },
+    {
+      "page": 113,
+      "rows": 10
+    },
+    {
+      "page": 114,
+      "rows": 12
+    },
+    {
+      "page": 115,
+      "rows": 12
+    },
+    {
+      "page": 116,
+      "rows": 2
+    },
+    {
+      "page": 117,
+      "rows": 8
+    },
+    {
+      "page": 118,
+      "rows": 11
+    },
+    {
+      "page": 119,
+      "rows": 13
+    },
+    {
+      "page": 120,
+      "rows": 3
+    },
+    {
+      "page": 121,
+      "rows": 10
+    },
+    {
+      "page": 122,
+      "rows": 16
+    },
+    {
+      "page": 123,
+      "rows": 10
+    },
+    {
+      "page": 124,
+      "rows": 10
+    },
+    {
+      "page": 125,
+      "rows": 12
+    },
+    {
+      "page": 126,
+      "rows": 13
+    },
+    {
+      "page": 127,
+      "rows": 2
+    }
+  ],
+  "checks": {
+    "allPagesParsed": true,
+    "allRowsAccountedFor": true,
+    "all37StatesPresent": true,
+    "uniqueIds": true,
+    "stateSerialsContiguous": true
+  },
+  "blankFieldCounts": {
+    "remarks": 1303,
+    "qualifications": 72
+  },
+  "blankQualifications": [
+    {
+      "id": "senate-2027-abia-3",
+      "page": 1
+    },
+    {
+      "id": "senate-2027-abia-29",
+      "page": 3
+    },
+    {
+      "id": "senate-2027-adamawa-5",
+      "page": 5
+    },
+    {
+      "id": "senate-2027-akwa-ibom-6",
+      "page": 9
+    },
+    {
+      "id": "senate-2027-akwa-ibom-22",
+      "page": 11
+    },
+    {
+      "id": "senate-2027-anambra-23",
+      "page": 15
+    },
+    {
+      "id": "senate-2027-bauchi-8",
+      "page": 17
+    },
+    {
+      "id": "senate-2027-bauchi-19",
+      "page": 18
+    },
+    {
+      "id": "senate-2027-bauchi-28",
+      "page": 19
+    },
+    {
+      "id": "senate-2027-benue-13",
+      "page": 25
+    },
+    {
+      "id": "senate-2027-benue-14",
+      "page": 25
+    },
+    {
+      "id": "senate-2027-borno-13",
+      "page": 29
+    },
+    {
+      "id": "senate-2027-borno-16",
+      "page": 29
+    },
+    {
+      "id": "senate-2027-borno-17",
+      "page": 29
+    },
+    {
+      "id": "senate-2027-borno-22",
+      "page": 29
+    },
+    {
+      "id": "senate-2027-borno-31",
+      "page": 30
+    },
+    {
+      "id": "senate-2027-cross-river-25",
+      "page": 33
+    },
+    {
+      "id": "senate-2027-ebonyi-7",
+      "page": 37
+    },
+    {
+      "id": "senate-2027-edo-23",
+      "page": 41
+    },
+    {
+      "id": "senate-2027-gombe-30",
+      "page": 52
+    },
+    {
+      "id": "senate-2027-imo-24",
+      "page": 55
+    },
+    {
+      "id": "senate-2027-imo-29",
+      "page": 56
+    },
+    {
+      "id": "senate-2027-jigawa-14",
+      "page": 59
+    },
+    {
+      "id": "senate-2027-jigawa-21",
+      "page": 59
+    },
+    {
+      "id": "senate-2027-jigawa-24",
+      "page": 60
+    },
+    {
+      "id": "senate-2027-jigawa-31",
+      "page": 60
+    },
+    {
+      "id": "senate-2027-kano-20",
+      "page": 65
+    },
+    {
+      "id": "senate-2027-kano-35",
+      "page": 66
+    },
+    {
+      "id": "senate-2027-katsina-13",
+      "page": 69
+    },
+    {
+      "id": "senate-2027-kebbi-6",
+      "page": 71
+    },
+    {
+      "id": "senate-2027-kebbi-18",
+      "page": 72
+    },
+    {
+      "id": "senate-2027-kebbi-21",
+      "page": 72
+    },
+    {
+      "id": "senate-2027-kebbi-31",
+      "page": 73
+    },
+    {
+      "id": "senate-2027-kebbi-33",
+      "page": 73
+    },
+    {
+      "id": "senate-2027-kwara-2",
+      "page": 77
+    },
+    {
+      "id": "senate-2027-kwara-9",
+      "page": 77
+    },
+    {
+      "id": "senate-2027-kwara-12",
+      "page": 78
+    },
+    {
+      "id": "senate-2027-kwara-24",
+      "page": 79
+    },
+    {
+      "id": "senate-2027-kwara-33",
+      "page": 79
+    },
+    {
+      "id": "senate-2027-lagos-2",
+      "page": 80
+    },
+    {
+      "id": "senate-2027-lagos-5",
+      "page": 80
+    },
+    {
+      "id": "senate-2027-lagos-8",
+      "page": 80
+    },
+    {
+      "id": "senate-2027-lagos-18",
+      "page": 81
+    },
+    {
+      "id": "senate-2027-lagos-28",
+      "page": 82
+    },
+    {
+      "id": "senate-2027-lagos-32",
+      "page": 82
+    },
+    {
+      "id": "senate-2027-nasarawa-1",
+      "page": 84
+    },
+    {
+      "id": "senate-2027-nasarawa-6",
+      "page": 84
+    },
+    {
+      "id": "senate-2027-nasarawa-24",
+      "page": 86
+    },
+    {
+      "id": "senate-2027-nasarawa-26",
+      "page": 86
+    },
+    {
+      "id": "senate-2027-nasarawa-32",
+      "page": 87
+    },
+    {
+      "id": "senate-2027-niger-3",
+      "page": 88
+    },
+    {
+      "id": "senate-2027-niger-9",
+      "page": 88
+    },
+    {
+      "id": "senate-2027-niger-10",
+      "page": 88
+    },
+    {
+      "id": "senate-2027-niger-29",
+      "page": 90
+    },
+    {
+      "id": "senate-2027-ogun-3",
+      "page": 91
+    },
+    {
+      "id": "senate-2027-ondo-5",
+      "page": 95
+    },
+    {
+      "id": "senate-2027-ondo-8",
+      "page": 95
+    },
+    {
+      "id": "senate-2027-ondo-16",
+      "page": 96
+    },
+    {
+      "id": "senate-2027-ondo-19",
+      "page": 96
+    },
+    {
+      "id": "senate-2027-osun-8",
+      "page": 98
+    },
+    {
+      "id": "senate-2027-osun-15",
+      "page": 99
+    },
+    {
+      "id": "senate-2027-plateau-10",
+      "page": 107
+    },
+    {
+      "id": "senate-2027-plateau-22",
+      "page": 108
+    },
+    {
+      "id": "senate-2027-plateau-25",
+      "page": 108
+    },
+    {
+      "id": "senate-2027-sokoto-15",
+      "page": 114
+    },
+    {
+      "id": "senate-2027-sokoto-24",
+      "page": 115
+    },
+    {
+      "id": "senate-2027-sokoto-26",
+      "page": 115
+    },
+    {
+      "id": "senate-2027-taraba-6",
+      "page": 117
+    },
+    {
+      "id": "senate-2027-taraba-19",
+      "page": 118
+    },
+    {
+      "id": "senate-2027-yobe-18",
+      "page": 122
+    },
+    {
+      "id": "senate-2027-zamfara-6",
+      "page": 124
+    },
+    {
+      "id": "senate-2027-zamfara-20",
+      "page": 125
+    }
+  ],
+  "notes": [
+    "Names, party abbreviations, qualifications and remarks preserve the document spelling; whitespace only is normalised.",
+    "State names match map names, and district labels use title case.",
+    "Blank fields remain empty (age null); no qualifications, biographies or policy positions are inferred.",
+    "The supplied document is the source. Its authenticity, election schedule and candidate claims have not been independently verified."
+  ]
+}

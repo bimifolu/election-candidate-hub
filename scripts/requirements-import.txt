@@ -1,0 +1,2 @@
+# Only needed to regenerate Senate records from the source PDF.
+PyMuPDF==1.26.6

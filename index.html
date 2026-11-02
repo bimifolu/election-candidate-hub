@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123e33">
+  <meta name="description" content="Explore Nigeria’s states and discover a demo of Senate and House of Representatives candidate profiles.">
+  <title>Candidate Hub — Know who represents you</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#candidates">Skip to candidates</a>
+  <header class="header"><a class="brand" href="./" aria-label="Candidate Hub home"><span class="brand-icon">c<span>✳</span></span>candidate<span class="brand-light">hub</span></a><nav aria-label="Main navigation"><a class="nav-active" href="#candidates">Explore candidates</a><button id="about-button">How it works <span>↗</span></button></nav><button class="saved-nav" id="saved-button"><span aria-hidden="true">♡</span> Saved <span id="saved-count">0</span></button></header>
+  <main>
+    <section class="map-home" aria-labelledby="map-heading">
+      <div class="map-intro"><p class="eyebrow"><span class="live-dot"></span> NIGERIA · YOUR STATE. YOUR VOICE.</p><h1 id="map-heading">Your state. <br>Your people. <br><em>Your choice.</em></h1><p>Who wants to represent you?<br>Select your state on the map to explore Senate and House of Representatives contestants.</p><label for="map-state">FIND YOUR STATE</label><select id="map-state"><option value="">Choose a state or the FCT</option></select><div class="map-instructions"><span>01</span> Select your state<br><span>02</span> Choose Senate or House<br><span>03</span> Get to know the contestants</div><p class="map-demo">DEMO DIRECTORY<br><small>Profiles are fictional examples. Real contestant lists have not been added.</small></p></div>
+      <div class="map-panel"><div class="map-panel-heading"><span>THE FEDERAL REPUBLIC OF NIGERIA</span><span>36 states + FCT</span></div><svg id="nigeria-map" viewBox="0 0 770 650" role="group" aria-label="Interactive map of Nigeria. Select a state to explore contestants."></svg><div class="map-bottom"><span><i></i> Select any state to explore</span><span id="map-hover" aria-live="polite">Where do you call home?</span></div><p class="map-credit">Boundary illustration: DataMaps / Natural Earth. Not for legal boundary determination.</p></div>
+    </section>
+    <section class="trust-strip" aria-label="About this directory"><span><i>◎</i> People before politics</span><span><i>⇄</i> Compare with clarity</span><span><i>▤</i> Priorities, in plain language</span><span class="demo-pill">DEMO · FICTIONAL PROFILES</span></section>
+    <section id="candidates" class="directory">
+      <div class="section-heading"><div><p class="eyebrow">MEET YOUR POTENTIAL REPRESENTATIVES</p><h2>Big decisions. <span>Start here.</span></h2></div><p>Find the people and priorities<br>that matter to your community.</p></div>
+      <div class="search-bar"><label class="search-input"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search by name, constituency, or priority…" aria-label="Search candidates"></label><label class="state-filter"><span aria-hidden="true">⌾</span><select id="state" aria-label="Filter by state"><option value="">All states</option></select></label></div>
+      <div class="directory-layout"><aside class="filters"><div class="filter-heading"><h3>Refine your search</h3><button id="reset">Reset</button></div><fieldset><legend>OFFICE</legend><label><input type="radio" name="office" value="" checked> All offices</label><label><input type="radio" name="office" value="Senate"> Senate</label><label><input type="radio" name="office" value="House of Representatives"> House of Representatives</label></fieldset><label class="select-label" for="party">POLITICAL PARTY</label><select id="party"><option value="">All parties</option></select><label class="select-label" for="issue">WHAT MATTERS TO YOU</label><select id="issue"><option value="">All priorities</option></select><div class="sidebar-note"><span>✳</span><h4>Your vote starts<br>with a little curiosity.</h4><p>Take a closer look. Ask questions. Get to know your options.</p><button id="guide-button">How to compare <span>↗</span></button></div></aside>
+      <div class="results"><div class="results-heading"><p id="result-count" role="status" aria-live="polite"></p><label>Sort by <select id="sort" aria-label="Sort candidates"><option value="featured">Default order</option><option value="az">Name: A–Z</option><option value="za">Name: Z–A</option></select></label></div><div id="candidate-grid" class="candidate-grid"></div><div class="directory-note"><span>ⓘ</span> You're exploring a prototype. All people, parties, and platforms shown are fictional sample data.</div></div></div>
+    </section>
+    <section class="closing"><span class="closing-symbol">✳</span><div><h2>Informed citizens. Stronger communities.</h2><p>Take the time to know your candidates. Your choice makes a difference.</p></div><a href="#candidates">Explore the directory <span>↗</span></a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="./">candidate<span class="brand-light">hub</span></a><p>An independent directory prototype. No political affiliation.</p><span>Built for a more informed tomorrow. ↗</span></footer>
+  <div class="compare-tray" id="compare-tray" hidden><p><strong id="compare-count">0</strong> candidates selected <span>Choose up to 3</span></p><button id="clear-compare">Clear</button><button class="primary-button" id="compare-button">Compare candidates ⇄</button></div>
+  <dialog id="detail-dialog"><div class="dialog-top"><span class="eyebrow">CANDIDATE HUB · DEMO</span><button id="close-dialog" aria-label="Close dialog">✕</button></div><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status" class="toast" hidden></div>
+</body>
+</html>

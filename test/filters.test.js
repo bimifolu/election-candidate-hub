@@ -24,10 +24,10 @@ test('state, office, district and party filters intersect', () => {
 });
 
 test('district choices depend on the selected state and office', () => {
-  assert.deepEqual(getDistricts(records, 'Lagos'), ['Lagos Central', 'Lagos East']);
+  assert.deepEqual(getDistricts(records, 'Lagos', 'Senate'), ['Lagos Central', 'Lagos East']);
   assert.deepEqual(getDistricts(records, 'Lagos', 'House of Representatives'), ['Ikeja']);
-  assert.deepEqual(getDistricts(records, ''), []);
-  assert.deepEqual(getDistricts(records, 'Kaduna'), []);
+  assert.deepEqual(getDistricts(records, '', 'Senate'), []);
+  assert.deepEqual(getDistricts(records, 'Kaduna', 'Senate'), []);
 });
 
 test('saved filtering intersects the other filters without retaining obsolete demo IDs', () => {

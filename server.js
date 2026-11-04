@@ -11,7 +11,9 @@ const files = new Map([
   ['/data.js', ['data.js', 'text/javascript']],
   ['/map-data.js', ['map-data.js', 'text/javascript']],
   ['/senate-data.js', ['senate-data.js', 'text/javascript']],
+  ['/reps-data.js', ['reps-data.js', 'text/javascript']],
   ['/sources/senate-2027.pdf', ['sources/senate-2027.pdf', 'application/pdf']],
+  ['/sources/reps-2027.pdf', ['sources/reps-2027.pdf', 'application/pdf']],
 ]);
 const server = http.createServer(async (req, res) => {
   const file = files.get(new URL(req.url, 'http://localhost').pathname);

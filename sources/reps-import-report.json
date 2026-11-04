@@ -1,0 +1,2557 @@
+{
+  "source": {
+    "title": "PRESIDENTIAL AND NATIONAL ASSEMBLY ELECTIONS FOR JAN, 2027 - HOUSE OF REPRESENTATIVES — FINAL LIST OF CANDIDATES",
+    "filename": "2027 REPS FINAL LIST OF CANDIDATES.pdf",
+    "url": "./sources/reps-2027.pdf",
+    "pages": 300,
+    "candidateCount": 3560,
+    "sha256": "3705571b4182a285f1b0d38112608807bbd4a721579f998d18090ef86ccfde19"
+  },
+  "importer": {
+    "python": "3",
+    "PyMuPDF": "1.26.6"
+  },
+  "method": "PyMuPDF text spans; ten columns from vector table borders; rows from printed serial-number baselines; 10pt table text excludes watermark/signature; whitespace normalised only.",
+  "serialNumberScope": "Numbers restart at 1 for each state; IDs include the state slug.",
+  "stateCount": 37,
+  "districtCount": 364,
+  "stateCounts": {
+    "Abia": 92,
+    "Adamawa": 95,
+    "Akwa Ibom": 103,
+    "Anambra": 108,
+    "Bauchi": 123,
+    "Bayelsa": 61,
+    "Benue": 118,
+    "Borno": 72,
+    "Cross River": 63,
+    "Delta": 116,
+    "Ebonyi": 65,
+    "Edo": 51,
+    "Ekiti": 36,
+    "Enugu": 75,
+    "Federal Capital Territory": 37,
+    "Gombe": 64,
+    "Imo": 140,
+    "Jigawa": 85,
+    "Kaduna": 151,
+    "Kano": 251,
+    "Katsina": 104,
+    "Kebbi": 62,
+    "Kogi": 94,
+    "Kwara": 65,
+    "Lagos": 184,
+    "Nasarawa": 61,
+    "Niger": 92,
+    "Ogun": 95,
+    "Ondo": 91,
+    "Osun": 81,
+    "Oyo": 151,
+    "Plateau": 86,
+    "Rivers": 146,
+    "Sokoto": 138,
+    "Taraba": 70,
+    "Yobe": 62,
+    "Zamfara": 72
+  },
+  "districtCounts": {
+    "Abia": {
+      "Aba North/Aba South": 12,
+      "Arochukwu/Ohafia": 14,
+      "Bende": 14,
+      "Isiala Ngwa North / Isiala Ngwa South": 11,
+      "Isuikwuato/Umu- Nneochi": 10,
+      "Obingwa/Ugwunagbo/ Osisioma": 11,
+      "Ukwa East/Ukwa West": 7,
+      "Umuahia North/ Umuahia South/ Ikwuano": 13
+    },
+    "Adamawa": {
+      "Demsa/Numan/ Lamurde": 12,
+      "Fufore/Song": 11,
+      "Gombi/Hong": 12,
+      "Guyuk/Shelleng": 10,
+      "Madagali/Michika": 12,
+      "Maiha/Mubi North/ Mubi South": 13,
+      "Mayo Belwa/Ganye/ Jada /Toungo": 10,
+      "Yola North/Yola South/ Girei": 15
+    },
+    "Akwa Ibom": {
+      "Abak/Etim Ekpo/Ika": 11,
+      "Eket/Onna/Esit Eket/Ibeno": 10,
+      "Etinan/Nsit Ibom/Nsit Ubium": 11,
+      "Ikono/Ini": 10,
+      "Ikot Abasi/Mkpat Enin/ Eastern Obolo": 7,
+      "Ikot Ekpene/Essien Udim/ Obot Akara": 12,
+      "Itu/Ibiono Ibom": 10,
+      "Oron/Mbo/Okobo/Udung Uko/Urue Offong/Oruko": 8,
+      "Ukanafun/Oruk Anam": 9,
+      "Uyo/Uruan/Nsit Atai/ Ibesikpo Asutan": 15
+    },
+    "Anambra": {
+      "Aguata": 10,
+      "Anambra East/ Anambra West": 9,
+      "Awka North/Awka South": 13,
+      "Idemili North/Idemili South": 11,
+      "Ihiala": 9,
+      "Njikoka/Dunukofia/ Anaocha": 10,
+      "Nnewi North/Nnewi South/ Ekwusigo": 9,
+      "Ogbaru": 7,
+      "Onitsha North/ Onitsha South": 11,
+      "Orumba North/ Orumba South": 8,
+      "Oyi/Ayamelum": 11
+    },
+    "Bauchi": {
+      "Alkaleri/Kerfi": 8,
+      "Bauchi": 12,
+      "Bogoro/Dass/Tafawa Balewa": 11,
+      "Darazo/Ganjuwa": 12,
+      "Gamawa": 10,
+      "Jama'Are/Itas-Gadau": 9,
+      "Katagum": 11,
+      "Misau/Damban": 10,
+      "Ningi/Warji": 9,
+      "Shira/Giade": 10,
+      "Toro": 12,
+      "Zaki": 9
+    },
+    "Bayelsa": {
+      "Brass/Nembe": 11,
+      "Ogbia": 12,
+      "Sagbama/Ekeremor": 13,
+      "Southern Ijaw": 11,
+      "Yenagoa/Kolokuna/ Opokuma": 14
+    },
+    "Benue": {
+      "Ado/Ogbadigbo/ Okpokwu": 10,
+      "Apa/Agatu": 12,
+      "Buruku": 10,
+      "Gboko/Tarka": 10,
+      "Guma/Makurdi": 9,
+      "Gwer East/Gwer West": 10,
+      "Katsina-Ala/Ukum/ Logo": 9,
+      "Konshisha/ Vandeikya": 10,
+      "Kwande/Ushongo": 11,
+      "Oju/Obi": 12,
+      "Otukpo/Ohimini": 15
+    },
+    "Borno": {
+      "Askira-Uba/Hawul": 10,
+      "Bama/Ngala/Kala- Balge": 7,
+      "Biu/Kwaya-Kusar, Shani/Bayo": 5,
+      "Damboa/Gwoza/ Chibok": 7,
+      "Dikwa/Mafa/Konduga": 7,
+      "Jere": 8,
+      "Kaga/Gubio/Magumeri": 6,
+      "Kukawa/Mobbar/ Abadam/ Guzamali": 7,
+      "Maiduguri (Metropolitan)": 10,
+      "Monguno/Nganzai/ Marte": 5
+    },
+    "Cross River": {
+      "Akamkpa/Biase": 7,
+      "Boki/Ikom": 9,
+      "Calabar Municipal/ Odukpani": 8,
+      "Calabar South/ Akpabuyo/ Bakassi": 8,
+      "Obanliku/Obudu/ Bekwarra": 10,
+      "Obubra/Etung": 7,
+      "Ogoja/Yala": 6,
+      "Yakurr/Abi": 8
+    },
+    "Delta": {
+      "Aniocha North/Aniocha South/ Oshimili North & South": 16,
+      "Bomadi/Patani": 10,
+      "Burutu": 9,
+      "Ethiope East/Ethiope West": 12,
+      "Ika North East/Ika South": 10,
+      "Isoko North/Isoko South": 12,
+      "Ndokwa East/Ndokwa West/ Ukwuani": 11,
+      "Okpe/Sapele/Uvwie": 12,
+      "Ughelli North, Ughelli South/Udu": 15,
+      "Warri North/Warri South/ Warri South West": 9
+    },
+    "Ebonyi": {
+      "Abakaliki/Izzi": 11,
+      "Afikpo North/Afikpo South": 13,
+      "Ebonyi/Ohaukwu": 10,
+      "Ezza North/Ishielu": 10,
+      "Ezza South/Ikwo": 10,
+      "Ivo-Ohaozara/ Onicha": 11
+    },
+    "Edo": {
+      "Akoko-Edo": 7,
+      "Egor/Ikpoba-Okha": 6,
+      "Esan Central/Esan South/ Igueben": 4,
+      "Esan North East/Esan South East": 5,
+      "Etsako East/Etsako West/ Etsako Central": 8,
+      "Oredo": 6,
+      "Orhionmwon/ Uhunmwonde": 5,
+      "Ovia North East/Ovia South West": 4,
+      "Owan East/Owan West": 6
+    },
+    "Ekiti": {
+      "Ado Ekiti/Irepodun/ Ifelodun": 7,
+      "Ekiti South West/ Ikere/Orun/ Ise": 8,
+      "Emure/Gbonyin/Ekiti East": 4,
+      "Ido/Osi, Moba/Ilejeme": 7,
+      "Ijero/Ekiti West/Efon": 3,
+      "Ikole/Oye": 7
+    },
+    "Enugu": {
+      "Aninri/Awgu/Oji River": 10,
+      "Enugu East/Isi Uzo": 6,
+      "Enugu North/Enugu South": 10,
+      "Ezeagu/Udi": 8,
+      "Igbo-Etiti/Uzo-Uwani": 10,
+      "Igbo-Eze North/ Udenu": 11,
+      "Nkanu East/Nkanu West": 11,
+      "Nsukka/Igbo-Eze South": 9
+    },
+    "Federal Capital Territory": {
+      "Abaji/Gwagwalada/ Kwali/Kuje": 16,
+      "Municipal/Bwari": 21
+    },
+    "Gombe": {
+      "Akko": 11,
+      "Balanga/Billiri": 10,
+      "Dukku/Nafada": 10,
+      "Gombe/Kwami/ Funakaye": 13,
+      "Kaltungo/Shongom": 10,
+      "Yamaltu/Deba": 10
+    },
+    "Imo": {
+      "Aboh Mbaise/Ngor Okpala": 15,
+      "Ahiazu Mbaise/ Ezinihitte": 17,
+      "Ehime Mbano/Ihite- Uboma/ Obowo": 13,
+      "Ideato North/Ideato South": 14,
+      "Ikeduru/Mbaitoli": 14,
+      "Isiala Mbano/Okigwe/ Onuimo": 12,
+      "Isu/Njaba/Nkwerre/ Nwangele": 14,
+      "Oguta/Ohaji- Egbema/Oru West": 1,
+      "Oguta/Ohaji-Egbema/ Oru West": 12,
+      "Oru East/Orsu/Orlu": 14,
+      "Owerri Municipal/ Owerri North/Owerri West": 14
+    },
+    "Jigawa": {
+      "Babura/Garki": 7,
+      "Birnin Kudu/Buji": 9,
+      "Birniwa Guri/ Kirikasamma": 9,
+      "Dutse/Kiyawa": 8,
+      "Gumel/Maigatari/Sule Tankarkar/Gagarawa": 7,
+      "Gwaram": 7,
+      "Hadejia/Kafin Hausa/ Auyo": 8,
+      "Jahun/Miga": 7,
+      "Kazaure/Roni/Gwiwa/ Yankwashi": 8,
+      "Mallam Madori/ Kaugama": 1,
+      "Mallam Madori/Kaugama": 6,
+      "Ringim/Taura": 8
+    },
+    "Kaduna": {
+      "Birnin Gwari/Giwa": 7,
+      "Chikun/Kajuru": 12,
+      "Igabi": 11,
+      "Ikara/Kubau": 10,
+      "Jema'A/Sanga": 10,
+      "Kachia/Kagarko": 8,
+      "Kaduna North": 10,
+      "Kaduna South": 11,
+      "Kaura": 10,
+      "Kauru": 8,
+      "Lere": 9,
+      "Makarfi/Kudan": 10,
+      "Sabon Gari": 8,
+      "Soba": 8,
+      "Zangon Kataf/ Jaba": 9,
+      "Zaria": 10
+    },
+    "Kano": {
+      "Albasu/Gaya/Ajingi": 13,
+      "Bebeji/Kiru": 7,
+      "Bichi": 8,
+      "Dala": 11,
+      "Dambatta/Makoda": 8,
+      "Dawakin Kudu/ Warawa": 11,
+      "Dawakin Tofa/Tofa/ Rimin Gado": 9,
+      "Doguwa/Tudun Wada": 9,
+      "Fagge": 10,
+      "Gezawa/Gabasawa": 13,
+      "Gwale": 15,
+      "Gwarzo/Kabo": 9,
+      "Karaye/Rogo": 8,
+      "Kumbotso": 11,
+      "Kura/Madobi/Garun Mallam": 11,
+      "Minjibir/Ungogo": 12,
+      "Municipal": 14,
+      "Nassarawa": 13,
+      "Rano/Bunkure/Kibiya": 6,
+      "Shanono/Bagwai": 9,
+      "Sumaila/Takai": 12,
+      "Tarauni": 12,
+      "Tsanyawa/Kunchi": 11,
+      "Wudil/Garko": 9
+    },
+    "Katsina": {
+      "Bakori/Danja": 8,
+      "Batagarawa/ Charanchi/Rimi": 7,
+      "Batsari/Safana/ Danmusa": 7,
+      "Bindawa/Mani": 6,
+      "Daura/Sandamu/ Mai'Adua": 8,
+      "Dutsin-Ma/Kurfi": 6,
+      "Faskari/Kankara/ Sabuwa": 7,
+      "Funtua/Dandume": 8,
+      "Ingawa/Kankia/ Kusada": 7,
+      "Jibia/Kaita": 7,
+      "Katsina": 8,
+      "Malumfashi/Kafur": 6,
+      "Mashi/Dutsi": 6,
+      "Matazu/Musawa": 6,
+      "Zango/Baure": 7
+    },
+    "Kebbi": {
+      "Aleiro/Gwandu/Jega": 9,
+      "Arewa/Dandi": 6,
+      "Argungu/Augie": 7,
+      "Bagudo/Suru": 8,
+      "Bunza/Birnin Kebbi/ Kalgo": 11,
+      "Fakai/Sakaba/ Wasagu/Danko/ Zuru": 1,
+      "Fakai/Sakaba/Wasagu/ Danko/ Zuru": 8,
+      "Koko-Besse/Maiyama": 6,
+      "Ngaski/Shanga/Yauri": 6
+    },
+    "Kogi": {
+      "Adavi/Okehi": 10,
+      "Ajaokuta": 10,
+      "Ankpa/Omala/ Olamaboro": 12,
+      "Bassa/Dekina": 11,
+      "Idah/Igalamela Odolu/ Ibaji/ Ofu": 12,
+      "Ijumu/Kabba-Bunu": 10,
+      "Kogi (Lokoja)/Kogi (K.K.)": 10,
+      "Okene/Ogori-Magogo": 13,
+      "Yagba East/Yagba West/ Mopamuro": 6
+    },
+    "Kwara": {
+      "Baruten/Kaiama": 9,
+      "Edu/Moro/Pategi": 12,
+      "Ekiti/Isin/Irepodun/ Oke-Ero": 9,
+      "Ifelodun/Offa/Oyun": 12,
+      "Ilorin East/Ilorin South": 12,
+      "Ilorin West/Asa": 11
+    },
+    "Lagos": {
+      "Agege": 8,
+      "Ajeromi/Ifelodun": 8,
+      "Alimosho": 11,
+      "Amuwo-Odofin": 10,
+      "Apapa": 7,
+      "Badagry": 7,
+      "Epe": 7,
+      "Eti-Osa": 8,
+      "Ibeju Lekki": 6,
+      "Ifako/Ijaiye": 6,
+      "Ikeja": 9,
+      "Ikorodu": 8,
+      "Kosofe": 8,
+      "Lagos Island I": 4,
+      "Lagos Island Ii": 4,
+      "Lagos Mainland": 6,
+      "Mushin I": 7,
+      "Mushin Ii": 8,
+      "Ojo": 13,
+      "Oshodi/Isolo I": 7,
+      "Oshodi/Isolo Ii": 9,
+      "Shomolu": 9,
+      "Surulere I": 8,
+      "Surulere Ii": 6
+    },
+    "Nasarawa": {
+      "Akwanga/Nassarawa Eggon/ Wamba": 13,
+      "Awe/Doma/Keana": 11,
+      "Keffi/Karu/Kokona": 12,
+      "Lafia/Obi": 13,
+      "Nassarawa/Toto": 12
+    },
+    "Niger": {
+      "Agaie/Lapai": 8,
+      "Agwara/Borgu": 10,
+      "Bida/Gbako/Katcha": 9,
+      "Booso/Paikoro": 10,
+      "Chanchaga": 10,
+      "Gurara/Suleja/Tapa": 11,
+      "Kontagora/Wushishi/ Mariga/ Mashegu": 10,
+      "Lavun/Mokwa/Edati": 6,
+      "Magama/Rijau": 8,
+      "Shiroro/Rafi/Munya": 10
+    },
+    "Ogun": {
+      "Abeokuta North/ Obafemi- Owode/ Odeda": 12,
+      "Abeokuta South": 13,
+      "Ado-Odo/Ota": 11,
+      "Egbado North/Imeko- Afon": 9,
+      "Egbado South/Ipokia": 9,
+      "Ifo/Ewekoro": 11,
+      "Ijebu North/Ijebu East/ Ogun Waterside": 8,
+      "Ijebu Ode /Odogbolu / Ijebu North East": 11,
+      "Ikenne/Shagamu/ Remo North": 11
+    },
+    "Ondo": {
+      "Akoko North East/ Akoko North West": 9,
+      "Akoko South East/ Akoko South West": 12,
+      "Akure North/Akure South": 10,
+      "Eseodo/Ilaje": 10,
+      "Idanre/Ifedore": 11,
+      "Ileoluji/Okeigbo/Odigbo": 12,
+      "Okitipupa/Irele": 9,
+      "Ondo East/Ondo West": 9,
+      "Owo/Ose": 9
+    },
+    "Osun": {
+      "Atakunmosa East/ Atakunmosa West/Ilesha East/Ilesha West": 7,
+      "Ayedaade/Irewole/Isokan": 11,
+      "Ayedire/Iwo/Ola-Oluwa": 5,
+      "Boluwaduro/Ifedayo/Ila": 9,
+      "Ede North/Ede South/ Egbedore/Ejigbo": 9,
+      "Ife Central/Ife North/Ife South/Ife East": 9,
+      "Irepodun/Olorunda/ Osogbo/Orolu": 11,
+      "Obokun/Oriade": 11,
+      "Odo-Otin/Ifelodun/Boripe": 9
+    },
+    "Oyo": {
+      "Afijio/Oyo East/Oyo West/ Atiba": 12,
+      "Akinyele/Lagelu": 10,
+      "Egbeda/Ona-Ara": 12,
+      "Ibadan North": 11,
+      "Ibadan North East/ Ibadan South East": 11,
+      "Ibadan South West/ Ibadan North West": 13,
+      "Ibarapa Central/ Ibarapa North": 12,
+      "Ibarapa East/Ido": 11,
+      "Irepo/Orelope/ Olorunsogo": 9,
+      "Iseyin/Itesiwaju/ Kajola/ Iwajowa": 2,
+      "Iseyin/Itesiwaju/Kajola/ Iwajowa": 7,
+      "Ogbomoso North/ Ogbomoso South/ Orire": 10,
+      "Ogo-Oluwa/Surulere": 11,
+      "Oluyole": 12,
+      "Saki East/Saki West/ Atisbo": 8
+    },
+    "Plateau": {
+      "Barkin Ladi/Riyom": 11,
+      "Bokkos/Mangu": 10,
+      "Jos North/Bassa": 13,
+      "Jos South/Jos East": 12,
+      "Kanke/Pankshin/ Kanam": 12,
+      "Langtang North/ Langtang South": 8,
+      "Mikang/Qua'An/Pan/ Shedam": 10,
+      "Wase": 10
+    },
+    "Rivers": {
+      "Abua-Odual/Ahaoda East": 12,
+      "Ahoada West/Ogba Egbema": 12,
+      "Akuku-Toru/Asari- Toru": 12,
+      "Andoni-Opobo/ Nkoro": 12,
+      "Degema/Bonny": 13,
+      "Eleme/Tai/Oyigbo": 11,
+      "Etche/Omuma": 10,
+      "Ikwerre/Umohua": 13,
+      "Khana/Gokana": 11,
+      "Obio Akpor": 11,
+      "Okrika/Ogu-Bolo": 12,
+      "Port Harcourt I": 9,
+      "Port Harcourt Ii": 8
+    },
+    "Sokoto": {
+      "Binji/Silame": 12,
+      "Dange-Shuni/ Bodinga/Tureta": 12,
+      "Goronyo/Gada": 16,
+      "Illela/Gwadabawa": 9,
+      "Isa/Sabon Birni": 11,
+      "Kebbe/Tambuwal": 13,
+      "Kware/Wamakko": 11,
+      "Sokoto North/Sokoto South": 16,
+      "Tangaza/Gudu": 8,
+      "Wurno/Rabah": 15,
+      "Yabo/Shagari": 15
+    },
+    "Taraba": {
+      "Bali/Gassol": 11,
+      "Ibi/Wukari": 12,
+      "Jalingo/Yorro/Zing": 12,
+      "Karim Lamido/Lau/ Ardo-Kola": 12,
+      "Sardauna/Kurmi/ Gashaka": 12,
+      "Takum/Donga/Ussa": 11
+    },
+    "Yobe": {
+      "Bade/Jakusko": 10,
+      "Bursari/Geidam/ Yunusari": 8,
+      "Damaturu/Gujba/ Gulani/ Tarmuwa": 11,
+      "Fika/Fune": 11,
+      "Machina/Nguru/ Yusufari/ Karasuwa": 9,
+      "Nangere/Potiskm": 13
+    },
+    "Zamfara": {
+      "Anka/Talata Mafara": 9,
+      "Bakura/Maradun": 9,
+      "Bungudu/Maru": 12,
+      "Gummi/Bukkuyum": 8,
+      "Gusau/Tsafe": 14,
+      "Kaura-Namoda/ Birnin Magaji": 10,
+      "Shinkafi/Zurmi": 10
+    }
+  },
+  "partyCounts": {
+    "A": 159,
+    "AA": 64,
+    "AAC": 50,
+    "ADC": 346,
+    "ADP": 256,
+    "APC": 360,
+    "APGA": 70,
+    "APM": 312,
+    "APP": 156,
+    "BP": 10,
+    "DLA": 68,
+    "LP": 170,
+    "NDC": 330,
+    "NDP": 60,
+    "NNPP": 52,
+    "NRM": 172,
+    "PDP": 316,
+    "PRP": 100,
+    "SDP": 257,
+    "YP": 4,
+    "YPP": 143,
+    "ZLP": 105
+  },
+  "sourceStateLabels": {
+    "Abia": "ABIA",
+    "Adamawa": "ADAMAWA",
+    "Akwa Ibom": "AKWA IBOM",
+    "Anambra": "ANAMBRA",
+    "Bauchi": "BAUCHI",
+    "Bayelsa": "BAYELSA",
+    "Benue": "BENUE",
+    "Borno": "BORNO",
+    "Cross River": "CROSS River",
+    "Delta": "DELTA",
+    "Ebonyi": "EBONYI",
+    "Edo": "EDO",
+    "Ekiti": "EKITI",
+    "Enugu": "ENUGU",
+    "Federal Capital Territory": "FCT",
+    "Gombe": "GOMBE",
+    "Imo": "IMO",
+    "Jigawa": "JIGAWA",
+    "Kaduna": "KADUNA",
+    "Kano": "KANO",
+    "Katsina": "KATSINA",
+    "Kebbi": "KEBBI",
+    "Kogi": "KOGI",
+    "Kwara": "KWARA",
+    "Lagos": "LAGOS",
+    "Nasarawa": "NASARAWA",
+    "Niger": "NIGER",
+    "Ogun": "OGUN",
+    "Ondo": "ONDO",
+    "Osun": "OSUN",
+    "Oyo": "OYO",
+    "Plateau": "PLATEAU",
+    "Rivers": "RIVERS",
+    "Sokoto": "SOKOTO",
+    "Taraba": "TARABA",
+    "Yobe": "YOBE",
+    "Zamfara": "ZAMFARA"
+  },
+  "pageCounts": [
+    {
+      "page": 1,
+      "rows": 10
+    },
+    {
+      "page": 2,
+      "rows": 16
+    },
+    {
+      "page": 3,
+      "rows": 14
+    },
+    {
+      "page": 4,
+      "rows": 12
+    },
+    {
+      "page": 5,
+      "rows": 11
+    },
+    {
+      "page": 6,
+      "rows": 11
+    },
+    {
+      "page": 7,
+      "rows": 8
+    },
+    {
+      "page": 8,
+      "rows": 10
+    },
+    {
+      "page": 9,
+      "rows": 8
+    },
+    {
+      "page": 10,
+      "rows": 14
+    },
+    {
+      "page": 11,
+      "rows": 12
+    },
+    {
+      "page": 12,
+      "rows": 15
+    },
+    {
+      "page": 13,
+      "rows": 14
+    },
+    {
+      "page": 14,
+      "rows": 14
+    },
+    {
+      "page": 15,
+      "rows": 12
+    },
+    {
+      "page": 16,
+      "rows": 6
+    },
+    {
+      "page": 17,
+      "rows": 8
+    },
+    {
+      "page": 18,
+      "rows": 12
+    },
+    {
+      "page": 19,
+      "rows": 12
+    },
+    {
+      "page": 20,
+      "rows": 12
+    },
+    {
+      "page": 21,
+      "rows": 12
+    },
+    {
+      "page": 22,
+      "rows": 12
+    },
+    {
+      "page": 23,
+      "rows": 12
+    },
+    {
+      "page": 24,
+      "rows": 12
+    },
+    {
+      "page": 25,
+      "rows": 11
+    },
+    {
+      "page": 26,
+      "rows": 9
+    },
+    {
+      "page": 27,
+      "rows": 12
+    },
+    {
+      "page": 28,
+      "rows": 12
+    },
+    {
+      "page": 29,
+      "rows": 12
+    },
+    {
+      "page": 30,
+      "rows": 13
+    },
+    {
+      "page": 31,
+      "rows": 12
+    },
+    {
+      "page": 32,
+      "rows": 12
+    },
+    {
+      "page": 33,
+      "rows": 13
+    },
+    {
+      "page": 34,
+      "rows": 11
+    },
+    {
+      "page": 35,
+      "rows": 2
+    },
+    {
+      "page": 36,
+      "rows": 11
+    },
+    {
+      "page": 37,
+      "rows": 14
+    },
+    {
+      "page": 38,
+      "rows": 15
+    },
+    {
+      "page": 39,
+      "rows": 14
+    },
+    {
+      "page": 40,
+      "rows": 15
+    },
+    {
+      "page": 41,
+      "rows": 13
+    },
+    {
+      "page": 42,
+      "rows": 13
+    },
+    {
+      "page": 43,
+      "rows": 13
+    },
+    {
+      "page": 44,
+      "rows": 14
+    },
+    {
+      "page": 45,
+      "rows": 1
+    },
+    {
+      "page": 46,
+      "rows": 10
+    },
+    {
+      "page": 47,
+      "rows": 16
+    },
+    {
+      "page": 48,
+      "rows": 14
+    },
+    {
+      "page": 49,
+      "rows": 13
+    },
+    {
+      "page": 50,
+      "rows": 8
+    },
+    {
+      "page": 51,
+      "rows": 9
+    },
+    {
+      "page": 52,
+      "rows": 15
+    },
+    {
+      "page": 53,
+      "rows": 17
+    },
+    {
+      "page": 54,
+      "rows": 14
+    },
+    {
+      "page": 55,
+      "rows": 12
+    },
+    {
+      "page": 56,
+      "rows": 12
+    },
+    {
+      "page": 57,
+      "rows": 16
+    },
+    {
+      "page": 58,
+      "rows": 15
+    },
+    {
+      "page": 59,
+      "rows": 8
+    },
+    {
+      "page": 60,
+      "rows": 10
+    },
+    {
+      "page": 61,
+      "rows": 11
+    },
+    {
+      "page": 62,
+      "rows": 14
+    },
+    {
+      "page": 63,
+      "rows": 12
+    },
+    {
+      "page": 64,
+      "rows": 11
+    },
+    {
+      "page": 65,
+      "rows": 13
+    },
+    {
+      "page": 66,
+      "rows": 1
+    },
+    {
+      "page": 67,
+      "rows": 9
+    },
+    {
+      "page": 68,
+      "rows": 12
+    },
+    {
+      "page": 69,
+      "rows": 12
+    },
+    {
+      "page": 70,
+      "rows": 12
+    },
+    {
+      "page": 71,
+      "rows": 12
+    },
+    {
+      "page": 72,
+      "rows": 6
+    },
+    {
+      "page": 73,
+      "rows": 6
+    },
+    {
+      "page": 74,
+      "rows": 8
+    },
+    {
+      "page": 75,
+      "rows": 13
+    },
+    {
+      "page": 76,
+      "rows": 12
+    },
+    {
+      "page": 77,
+      "rows": 15
+    },
+    {
+      "page": 78,
+      "rows": 13
+    },
+    {
+      "page": 79,
+      "rows": 14
+    },
+    {
+      "page": 80,
+      "rows": 14
+    },
+    {
+      "page": 81,
+      "rows": 11
+    },
+    {
+      "page": 82,
+      "rows": 10
+    },
+    {
+      "page": 83,
+      "rows": 12
+    },
+    {
+      "page": 84,
+      "rows": 14
+    },
+    {
+      "page": 85,
+      "rows": 16
+    },
+    {
+      "page": 86,
+      "rows": 12
+    },
+    {
+      "page": 87,
+      "rows": 11
+    },
+    {
+      "page": 88,
+      "rows": 10
+    },
+    {
+      "page": 89,
+      "rows": 12
+    },
+    {
+      "page": 90,
+      "rows": 14
+    },
+    {
+      "page": 91,
+      "rows": 13
+    },
+    {
+      "page": 92,
+      "rows": 2
+    },
+    {
+      "page": 93,
+      "rows": 8
+    },
+    {
+      "page": 94,
+      "rows": 11
+    },
+    {
+      "page": 95,
+      "rows": 13
+    },
+    {
+      "page": 96,
+      "rows": 4
+    },
+    {
+      "page": 97,
+      "rows": 8
+    },
+    {
+      "page": 98,
+      "rows": 14
+    },
+    {
+      "page": 99,
+      "rows": 13
+    },
+    {
+      "page": 100,
+      "rows": 14
+    },
+    {
+      "page": 101,
+      "rows": 12
+    },
+    {
+      "page": 102,
+      "rows": 12
+    },
+    {
+      "page": 103,
+      "rows": 2
+    },
+    {
+      "page": 104,
+      "rows": 9
+    },
+    {
+      "page": 105,
+      "rows": 14
+    },
+    {
+      "page": 106,
+      "rows": 14
+    },
+    {
+      "page": 107,
+      "rows": 10
+    },
+    {
+      "page": 108,
+      "rows": 14
+    },
+    {
+      "page": 109,
+      "rows": 14
+    },
+    {
+      "page": 110,
+      "rows": 11
+    },
+    {
+      "page": 111,
+      "rows": 14
+    },
+    {
+      "page": 112,
+      "rows": 1
+    },
+    {
+      "page": 113,
+      "rows": 8
+    },
+    {
+      "page": 114,
+      "rows": 11
+    },
+    {
+      "page": 115,
+      "rows": 11
+    },
+    {
+      "page": 116,
+      "rows": 11
+    },
+    {
+      "page": 117,
+      "rows": 12
+    },
+    {
+      "page": 118,
+      "rows": 12
+    },
+    {
+      "page": 119,
+      "rows": 12
+    },
+    {
+      "page": 120,
+      "rows": 12
+    },
+    {
+      "page": 121,
+      "rows": 11
+    },
+    {
+      "page": 122,
+      "rows": 12
+    },
+    {
+      "page": 123,
+      "rows": 11
+    },
+    {
+      "page": 124,
+      "rows": 9
+    },
+    {
+      "page": 125,
+      "rows": 8
+    },
+    {
+      "page": 126,
+      "rows": 10
+    },
+    {
+      "page": 127,
+      "rows": 12
+    },
+    {
+      "page": 128,
+      "rows": 12
+    },
+    {
+      "page": 129,
+      "rows": 13
+    },
+    {
+      "page": 130,
+      "rows": 13
+    },
+    {
+      "page": 131,
+      "rows": 13
+    },
+    {
+      "page": 132,
+      "rows": 12
+    },
+    {
+      "page": 133,
+      "rows": 11
+    },
+    {
+      "page": 134,
+      "rows": 16
+    },
+    {
+      "page": 135,
+      "rows": 16
+    },
+    {
+      "page": 136,
+      "rows": 17
+    },
+    {
+      "page": 137,
+      "rows": 14
+    },
+    {
+      "page": 138,
+      "rows": 15
+    },
+    {
+      "page": 139,
+      "rows": 15
+    },
+    {
+      "page": 140,
+      "rows": 13
+    },
+    {
+      "page": 141,
+      "rows": 15
+    },
+    {
+      "page": 142,
+      "rows": 13
+    },
+    {
+      "page": 143,
+      "rows": 6
+    },
+    {
+      "page": 144,
+      "rows": 11
+    },
+    {
+      "page": 145,
+      "rows": 16
+    },
+    {
+      "page": 146,
+      "rows": 16
+    },
+    {
+      "page": 147,
+      "rows": 16
+    },
+    {
+      "page": 148,
+      "rows": 14
+    },
+    {
+      "page": 149,
+      "rows": 13
+    },
+    {
+      "page": 150,
+      "rows": 13
+    },
+    {
+      "page": 151,
+      "rows": 16
+    },
+    {
+      "page": 152,
+      "rows": 17
+    },
+    {
+      "page": 153,
+      "rows": 16
+    },
+    {
+      "page": 154,
+      "rows": 13
+    },
+    {
+      "page": 155,
+      "rows": 15
+    },
+    {
+      "page": 156,
+      "rows": 13
+    },
+    {
+      "page": 157,
+      "rows": 14
+    },
+    {
+      "page": 158,
+      "rows": 17
+    },
+    {
+      "page": 159,
+      "rows": 16
+    },
+    {
+      "page": 160,
+      "rows": 15
+    },
+    {
+      "page": 161,
+      "rows": 9
+    },
+    {
+      "page": 162,
+      "rows": 12
+    },
+    {
+      "page": 163,
+      "rows": 13
+    },
+    {
+      "page": 164,
+      "rows": 13
+    },
+    {
+      "page": 165,
+      "rows": 12
+    },
+    {
+      "page": 166,
+      "rows": 12
+    },
+    {
+      "page": 167,
+      "rows": 15
+    },
+    {
+      "page": 168,
+      "rows": 13
+    },
+    {
+      "page": 169,
+      "rows": 5
+    },
+    {
+      "page": 170,
+      "rows": 7
+    },
+    {
+      "page": 171,
+      "rows": 14
+    },
+    {
+      "page": 172,
+      "rows": 11
+    },
+    {
+      "page": 173,
+      "rows": 14
+    },
+    {
+      "page": 174,
+      "rows": 12
+    },
+    {
+      "page": 175,
+      "rows": 4
+    },
+    {
+      "page": 176,
+      "rows": 10
+    },
+    {
+      "page": 177,
+      "rows": 13
+    },
+    {
+      "page": 178,
+      "rows": 13
+    },
+    {
+      "page": 179,
+      "rows": 14
+    },
+    {
+      "page": 180,
+      "rows": 12
+    },
+    {
+      "page": 181,
+      "rows": 12
+    },
+    {
+      "page": 182,
+      "rows": 12
+    },
+    {
+      "page": 183,
+      "rows": 8
+    },
+    {
+      "page": 184,
+      "rows": 11
+    },
+    {
+      "page": 185,
+      "rows": 15
+    },
+    {
+      "page": 186,
+      "rows": 12
+    },
+    {
+      "page": 187,
+      "rows": 14
+    },
+    {
+      "page": 188,
+      "rows": 13
+    },
+    {
+      "page": 189,
+      "rows": 10
+    },
+    {
+      "page": 190,
+      "rows": 13
+    },
+    {
+      "page": 191,
+      "rows": 13
+    },
+    {
+      "page": 192,
+      "rows": 14
+    },
+    {
+      "page": 193,
+      "rows": 13
+    },
+    {
+      "page": 194,
+      "rows": 12
+    },
+    {
+      "page": 195,
+      "rows": 13
+    },
+    {
+      "page": 196,
+      "rows": 14
+    },
+    {
+      "page": 197,
+      "rows": 13
+    },
+    {
+      "page": 198,
+      "rows": 14
+    },
+    {
+      "page": 199,
+      "rows": 13
+    },
+    {
+      "page": 200,
+      "rows": 14
+    },
+    {
+      "page": 201,
+      "rows": 13
+    },
+    {
+      "page": 202,
+      "rows": 13
+    },
+    {
+      "page": 203,
+      "rows": 2
+    },
+    {
+      "page": 204,
+      "rows": 8
+    },
+    {
+      "page": 205,
+      "rows": 13
+    },
+    {
+      "page": 206,
+      "rows": 14
+    },
+    {
+      "page": 207,
+      "rows": 14
+    },
+    {
+      "page": 208,
+      "rows": 12
+    },
+    {
+      "page": 209,
+      "rows": 12
+    },
+    {
+      "page": 210,
+      "rows": 14
+    },
+    {
+      "page": 211,
+      "rows": 14
+    },
+    {
+      "page": 212,
+      "rows": 14
+    },
+    {
+      "page": 213,
+      "rows": 15
+    },
+    {
+      "page": 214,
+      "rows": 13
+    },
+    {
+      "page": 215,
+      "rows": 10
+    },
+    {
+      "page": 216,
+      "rows": 6
+    },
+    {
+      "page": 217,
+      "rows": 10
+    },
+    {
+      "page": 218,
+      "rows": 14
+    },
+    {
+      "page": 219,
+      "rows": 11
+    },
+    {
+      "page": 220,
+      "rows": 13
+    },
+    {
+      "page": 221,
+      "rows": 13
+    },
+    {
+      "page": 222,
+      "rows": 12
+    },
+    {
+      "page": 223,
+      "rows": 11
+    },
+    {
+      "page": 224,
+      "rows": 5
+    },
+    {
+      "page": 225,
+      "rows": 9
+    },
+    {
+      "page": 226,
+      "rows": 12
+    },
+    {
+      "page": 227,
+      "rows": 13
+    },
+    {
+      "page": 228,
+      "rows": 15
+    },
+    {
+      "page": 229,
+      "rows": 16
+    },
+    {
+      "page": 230,
+      "rows": 14
+    },
+    {
+      "page": 231,
+      "rows": 12
+    },
+    {
+      "page": 232,
+      "rows": 8
+    },
+    {
+      "page": 233,
+      "rows": 12
+    },
+    {
+      "page": 234,
+      "rows": 11
+    },
+    {
+      "page": 235,
+      "rows": 11
+    },
+    {
+      "page": 236,
+      "rows": 12
+    },
+    {
+      "page": 237,
+      "rows": 12
+    },
+    {
+      "page": 238,
+      "rows": 12
+    },
+    {
+      "page": 239,
+      "rows": 3
+    },
+    {
+      "page": 240,
+      "rows": 8
+    },
+    {
+      "page": 241,
+      "rows": 12
+    },
+    {
+      "page": 242,
+      "rows": 14
+    },
+    {
+      "page": 243,
+      "rows": 12
+    },
+    {
+      "page": 244,
+      "rows": 13
+    },
+    {
+      "page": 245,
+      "rows": 12
+    },
+    {
+      "page": 246,
+      "rows": 12
+    },
+    {
+      "page": 247,
+      "rows": 8
+    },
+    {
+      "page": 248,
+      "rows": 11
+    },
+    {
+      "page": 249,
+      "rows": 12
+    },
+    {
+      "page": 250,
+      "rows": 12
+    },
+    {
+      "page": 251,
+      "rows": 11
+    },
+    {
+      "page": 252,
+      "rows": 13
+    },
+    {
+      "page": 253,
+      "rows": 1
+    },
+    {
+      "page": 254,
+      "rows": 10
+    },
+    {
+      "page": 255,
+      "rows": 14
+    },
+    {
+      "page": 256,
+      "rows": 14
+    },
+    {
+      "page": 257,
+      "rows": 13
+    },
+    {
+      "page": 258,
+      "rows": 13
+    },
+    {
+      "page": 259,
+      "rows": 12
+    },
+    {
+      "page": 260,
+      "rows": 10
+    },
+    {
+      "page": 261,
+      "rows": 9
+    },
+    {
+      "page": 262,
+      "rows": 12
+    },
+    {
+      "page": 263,
+      "rows": 16
+    },
+    {
+      "page": 264,
+      "rows": 12
+    },
+    {
+      "page": 265,
+      "rows": 13
+    },
+    {
+      "page": 266,
+      "rows": 13
+    },
+    {
+      "page": 267,
+      "rows": 16
+    },
+    {
+      "page": 268,
+      "rows": 14
+    },
+    {
+      "page": 269,
+      "rows": 15
+    },
+    {
+      "page": 270,
+      "rows": 15
+    },
+    {
+      "page": 271,
+      "rows": 11
+    },
+    {
+      "page": 272,
+      "rows": 11
+    },
+    {
+      "page": 273,
+      "rows": 16
+    },
+    {
+      "page": 274,
+      "rows": 15
+    },
+    {
+      "page": 275,
+      "rows": 14
+    },
+    {
+      "page": 276,
+      "rows": 15
+    },
+    {
+      "page": 277,
+      "rows": 13
+    },
+    {
+      "page": 278,
+      "rows": 12
+    },
+    {
+      "page": 279,
+      "rows": 11
+    },
+    {
+      "page": 280,
+      "rows": 14
+    },
+    {
+      "page": 281,
+      "rows": 14
+    },
+    {
+      "page": 282,
+      "rows": 3
+    },
+    {
+      "page": 283,
+      "rows": 12
+    },
+    {
+      "page": 284,
+      "rows": 12
+    },
+    {
+      "page": 285,
+      "rows": 11
+    },
+    {
+      "page": 286,
+      "rows": 12
+    },
+    {
+      "page": 287,
+      "rows": 12
+    },
+    {
+      "page": 288,
+      "rows": 11
+    },
+    {
+      "page": 289,
+      "rows": 10
+    },
+    {
+      "page": 290,
+      "rows": 12
+    },
+    {
+      "page": 291,
+      "rows": 12
+    },
+    {
+      "page": 292,
+      "rows": 11
+    },
+    {
+      "page": 293,
+      "rows": 12
+    },
+    {
+      "page": 294,
+      "rows": 5
+    },
+    {
+      "page": 295,
+      "rows": 8
+    },
+    {
+      "page": 296,
+      "rows": 14
+    },
+    {
+      "page": 297,
+      "rows": 14
+    },
+    {
+      "page": 298,
+      "rows": 14
+    },
+    {
+      "page": 299,
+      "rows": 12
+    },
+    {
+      "page": 300,
+      "rows": 10
+    }
+  ],
+  "checks": {
+    "allPagesParsed": true,
+    "allRowsAccountedFor": true,
+    "all37StatesPresent": true,
+    "uniqueIds": true,
+    "stateSerialsContiguous": true
+  },
+  "blankFieldCounts": {
+    "remarks": 3560,
+    "qualifications": 194
+  },
+  "blankQualifications": [
+    {
+      "id": "reps-2027-abia-2",
+      "page": 1
+    },
+    {
+      "id": "reps-2027-abia-16",
+      "page": 2
+    },
+    {
+      "id": "reps-2027-abia-29",
+      "page": 3
+    },
+    {
+      "id": "reps-2027-abia-42",
+      "page": 4
+    },
+    {
+      "id": "reps-2027-abia-53",
+      "page": 5
+    },
+    {
+      "id": "reps-2027-abia-63",
+      "page": 5
+    },
+    {
+      "id": "reps-2027-abia-75",
+      "page": 7
+    },
+    {
+      "id": "reps-2027-abia-86",
+      "page": 8
+    },
+    {
+      "id": "reps-2027-adamawa-81",
+      "page": 15
+    },
+    {
+      "id": "reps-2027-adamawa-92",
+      "page": 16
+    },
+    {
+      "id": "reps-2027-akwa-ibom-39",
+      "page": 20
+    },
+    {
+      "id": "reps-2027-akwa-ibom-86",
+      "page": 24
+    },
+    {
+      "id": "reps-2027-anambra-7",
+      "page": 26
+    },
+    {
+      "id": "reps-2027-anambra-15",
+      "page": 27
+    },
+    {
+      "id": "reps-2027-bauchi-5",
+      "page": 36
+    },
+    {
+      "id": "reps-2027-bauchi-27",
+      "page": 38
+    },
+    {
+      "id": "reps-2027-bauchi-39",
+      "page": 38
+    },
+    {
+      "id": "reps-2027-bauchi-40",
+      "page": 38
+    },
+    {
+      "id": "reps-2027-bauchi-50",
+      "page": 39
+    },
+    {
+      "id": "reps-2027-bauchi-54",
+      "page": 39
+    },
+    {
+      "id": "reps-2027-bauchi-60",
+      "page": 40
+    },
+    {
+      "id": "reps-2027-bauchi-70",
+      "page": 41
+    },
+    {
+      "id": "reps-2027-bauchi-90",
+      "page": 42
+    },
+    {
+      "id": "reps-2027-bayelsa-6",
+      "page": 46
+    },
+    {
+      "id": "reps-2027-bayelsa-29",
+      "page": 48
+    },
+    {
+      "id": "reps-2027-benue-8",
+      "page": 51
+    },
+    {
+      "id": "reps-2027-benue-20",
+      "page": 52
+    },
+    {
+      "id": "reps-2027-benue-49",
+      "page": 54
+    },
+    {
+      "id": "reps-2027-benue-52",
+      "page": 54
+    },
+    {
+      "id": "reps-2027-benue-67",
+      "page": 55
+    },
+    {
+      "id": "reps-2027-benue-88",
+      "page": 57
+    },
+    {
+      "id": "reps-2027-benue-100",
+      "page": 58
+    },
+    {
+      "id": "reps-2027-benue-115",
+      "page": 59
+    },
+    {
+      "id": "reps-2027-borno-3",
+      "page": 60
+    },
+    {
+      "id": "reps-2027-borno-12",
+      "page": 61
+    },
+    {
+      "id": "reps-2027-borno-34",
+      "page": 62
+    },
+    {
+      "id": "reps-2027-borno-38",
+      "page": 63
+    },
+    {
+      "id": "reps-2027-borno-41",
+      "page": 63
+    },
+    {
+      "id": "reps-2027-borno-47",
+      "page": 63
+    },
+    {
+      "id": "reps-2027-borno-55",
+      "page": 64
+    },
+    {
+      "id": "reps-2027-borno-61",
+      "page": 65
+    },
+    {
+      "id": "reps-2027-borno-62",
+      "page": 65
+    },
+    {
+      "id": "reps-2027-borno-66",
+      "page": 65
+    },
+    {
+      "id": "reps-2027-borno-69",
+      "page": 65
+    },
+    {
+      "id": "reps-2027-cross-river-56",
+      "page": 71
+    },
+    {
+      "id": "reps-2027-cross-river-61",
+      "page": 72
+    },
+    {
+      "id": "reps-2027-delta-23",
+      "page": 75
+    },
+    {
+      "id": "reps-2027-delta-34",
+      "page": 76
+    },
+    {
+      "id": "reps-2027-delta-35",
+      "page": 76
+    },
+    {
+      "id": "reps-2027-delta-41",
+      "page": 77
+    },
+    {
+      "id": "reps-2027-delta-85",
+      "page": 80
+    },
+    {
+      "id": "reps-2027-delta-86",
+      "page": 80
+    },
+    {
+      "id": "reps-2027-delta-90",
+      "page": 80
+    },
+    {
+      "id": "reps-2027-delta-99",
+      "page": 81
+    },
+    {
+      "id": "reps-2027-delta-102",
+      "page": 81
+    },
+    {
+      "id": "reps-2027-delta-115",
+      "page": 82
+    },
+    {
+      "id": "reps-2027-ebonyi-19",
+      "page": 84
+    },
+    {
+      "id": "reps-2027-ebonyi-22",
+      "page": 84
+    },
+    {
+      "id": "reps-2027-ebonyi-32",
+      "page": 85
+    },
+    {
+      "id": "reps-2027-ebonyi-38",
+      "page": 85
+    },
+    {
+      "id": "reps-2027-ebonyi-42",
+      "page": 85
+    },
+    {
+      "id": "reps-2027-ebonyi-49",
+      "page": 86
+    },
+    {
+      "id": "reps-2027-ebonyi-53",
+      "page": 86
+    },
+    {
+      "id": "reps-2027-edo-7",
+      "page": 88
+    },
+    {
+      "id": "reps-2027-edo-16",
+      "page": 89
+    },
+    {
+      "id": "reps-2027-edo-36",
+      "page": 90
+    },
+    {
+      "id": "reps-2027-ekiti-4",
+      "page": 93
+    },
+    {
+      "id": "reps-2027-ekiti-5",
+      "page": 93
+    },
+    {
+      "id": "reps-2027-enugu-2",
+      "page": 97
+    },
+    {
+      "id": "reps-2027-enugu-11",
+      "page": 98
+    },
+    {
+      "id": "reps-2027-enugu-30",
+      "page": 99
+    },
+    {
+      "id": "reps-2027-federal-capital-territory-20",
+      "page": 105
+    },
+    {
+      "id": "reps-2027-gombe-6",
+      "page": 107
+    },
+    {
+      "id": "reps-2027-gombe-47",
+      "page": 110
+    },
+    {
+      "id": "reps-2027-gombe-53",
+      "page": 111
+    },
+    {
+      "id": "reps-2027-gombe-62",
+      "page": 111
+    },
+    {
+      "id": "reps-2027-gombe-64",
+      "page": 112
+    },
+    {
+      "id": "reps-2027-imo-60",
+      "page": 118
+    },
+    {
+      "id": "reps-2027-imo-98",
+      "page": 121
+    },
+    {
+      "id": "reps-2027-imo-103",
+      "page": 122
+    },
+    {
+      "id": "reps-2027-imo-107",
+      "page": 122
+    },
+    {
+      "id": "reps-2027-imo-134",
+      "page": 125
+    },
+    {
+      "id": "reps-2027-jigawa-7",
+      "page": 126
+    },
+    {
+      "id": "reps-2027-jigawa-25",
+      "page": 128
+    },
+    {
+      "id": "reps-2027-jigawa-38",
+      "page": 129
+    },
+    {
+      "id": "reps-2027-jigawa-40",
+      "page": 129
+    },
+    {
+      "id": "reps-2027-jigawa-55",
+      "page": 130
+    },
+    {
+      "id": "reps-2027-jigawa-62",
+      "page": 131
+    },
+    {
+      "id": "reps-2027-jigawa-69",
+      "page": 131
+    },
+    {
+      "id": "reps-2027-jigawa-85",
+      "page": 132
+    },
+    {
+      "id": "reps-2027-kaduna-114",
+      "page": 140
+    },
+    {
+      "id": "reps-2027-kaduna-131",
+      "page": 141
+    },
+    {
+      "id": "reps-2027-kano-6",
+      "page": 144
+    },
+    {
+      "id": "reps-2027-kano-15",
+      "page": 145
+    },
+    {
+      "id": "reps-2027-kano-18",
+      "page": 145
+    },
+    {
+      "id": "reps-2027-kano-27",
+      "page": 145
+    },
+    {
+      "id": "reps-2027-kano-28",
+      "page": 146
+    },
+    {
+      "id": "reps-2027-kano-37",
+      "page": 146
+    },
+    {
+      "id": "reps-2027-kano-74",
+      "page": 149
+    },
+    {
+      "id": "reps-2027-kano-102",
+      "page": 151
+    },
+    {
+      "id": "reps-2027-kano-104",
+      "page": 151
+    },
+    {
+      "id": "reps-2027-kano-125",
+      "page": 152
+    },
+    {
+      "id": "reps-2027-kano-191",
+      "page": 157
+    },
+    {
+      "id": "reps-2027-kano-193",
+      "page": 157
+    },
+    {
+      "id": "reps-2027-kano-248",
+      "page": 160
+    },
+    {
+      "id": "reps-2027-katsina-9",
+      "page": 161
+    },
+    {
+      "id": "reps-2027-katsina-16",
+      "page": 162
+    },
+    {
+      "id": "reps-2027-katsina-23",
+      "page": 163
+    },
+    {
+      "id": "reps-2027-katsina-29",
+      "page": 163
+    },
+    {
+      "id": "reps-2027-katsina-43",
+      "page": 164
+    },
+    {
+      "id": "reps-2027-katsina-46",
+      "page": 164
+    },
+    {
+      "id": "reps-2027-katsina-54",
+      "page": 165
+    },
+    {
+      "id": "reps-2027-katsina-58",
+      "page": 165
+    },
+    {
+      "id": "reps-2027-katsina-65",
+      "page": 166
+    },
+    {
+      "id": "reps-2027-katsina-72",
+      "page": 167
+    },
+    {
+      "id": "reps-2027-katsina-78",
+      "page": 167
+    },
+    {
+      "id": "reps-2027-katsina-86",
+      "page": 167
+    },
+    {
+      "id": "reps-2027-katsina-92",
+      "page": 168
+    },
+    {
+      "id": "reps-2027-katsina-98",
+      "page": 168
+    },
+    {
+      "id": "reps-2027-kebbi-22",
+      "page": 172
+    },
+    {
+      "id": "reps-2027-kebbi-60",
+      "page": 175
+    },
+    {
+      "id": "reps-2027-kogi-47",
+      "page": 179
+    },
+    {
+      "id": "reps-2027-kogi-79",
+      "page": 182
+    },
+    {
+      "id": "reps-2027-kwara-10",
+      "page": 184
+    },
+    {
+      "id": "reps-2027-kwara-31",
+      "page": 186
+    },
+    {
+      "id": "reps-2027-kwara-40",
+      "page": 187
+    },
+    {
+      "id": "reps-2027-kwara-54",
+      "page": 188
+    },
+    {
+      "id": "reps-2027-kwara-63",
+      "page": 188
+    },
+    {
+      "id": "reps-2027-lagos-12",
+      "page": 190
+    },
+    {
+      "id": "reps-2027-lagos-13",
+      "page": 190
+    },
+    {
+      "id": "reps-2027-lagos-43",
+      "page": 192
+    },
+    {
+      "id": "reps-2027-lagos-71",
+      "page": 194
+    },
+    {
+      "id": "reps-2027-lagos-120",
+      "page": 198
+    },
+    {
+      "id": "reps-2027-lagos-128",
+      "page": 198
+    },
+    {
+      "id": "reps-2027-lagos-143",
+      "page": 200
+    },
+    {
+      "id": "reps-2027-nasarawa-21",
+      "page": 205
+    },
+    {
+      "id": "reps-2027-nasarawa-25",
+      "page": 206
+    },
+    {
+      "id": "reps-2027-nasarawa-45",
+      "page": 207
+    },
+    {
+      "id": "reps-2027-nasarawa-50",
+      "page": 208
+    },
+    {
+      "id": "reps-2027-nasarawa-55",
+      "page": 208
+    },
+    {
+      "id": "reps-2027-nasarawa-57",
+      "page": 208
+    },
+    {
+      "id": "reps-2027-niger-17",
+      "page": 210
+    },
+    {
+      "id": "reps-2027-niger-56",
+      "page": 213
+    },
+    {
+      "id": "reps-2027-niger-80",
+      "page": 214
+    },
+    {
+      "id": "reps-2027-ogun-15",
+      "page": 217
+    },
+    {
+      "id": "reps-2027-ogun-20",
+      "page": 218
+    },
+    {
+      "id": "reps-2027-ogun-61",
+      "page": 221
+    },
+    {
+      "id": "reps-2027-ondo-6",
+      "page": 225
+    },
+    {
+      "id": "reps-2027-ondo-8",
+      "page": 225
+    },
+    {
+      "id": "reps-2027-ondo-28",
+      "page": 227
+    },
+    {
+      "id": "reps-2027-ondo-70",
+      "page": 230
+    },
+    {
+      "id": "reps-2027-ondo-78",
+      "page": 230
+    },
+    {
+      "id": "reps-2027-ondo-87",
+      "page": 231
+    },
+    {
+      "id": "reps-2027-osun-31",
+      "page": 234
+    },
+    {
+      "id": "reps-2027-osun-75",
+      "page": 238
+    },
+    {
+      "id": "reps-2027-oyo-59",
+      "page": 244
+    },
+    {
+      "id": "reps-2027-oyo-67",
+      "page": 245
+    },
+    {
+      "id": "reps-2027-oyo-71",
+      "page": 245
+    },
+    {
+      "id": "reps-2027-oyo-85",
+      "page": 247
+    },
+    {
+      "id": "reps-2027-oyo-111",
+      "page": 249
+    },
+    {
+      "id": "reps-2027-oyo-144",
+      "page": 252
+    },
+    {
+      "id": "reps-2027-plateau-15",
+      "page": 255
+    },
+    {
+      "id": "reps-2027-plateau-43",
+      "page": 257
+    },
+    {
+      "id": "reps-2027-plateau-48",
+      "page": 257
+    },
+    {
+      "id": "reps-2027-plateau-69",
+      "page": 259
+    },
+    {
+      "id": "reps-2027-rivers-68",
+      "page": 266
+    },
+    {
+      "id": "reps-2027-rivers-79",
+      "page": 267
+    },
+    {
+      "id": "reps-2027-sokoto-1",
+      "page": 272
+    },
+    {
+      "id": "reps-2027-sokoto-2",
+      "page": 272
+    },
+    {
+      "id": "reps-2027-sokoto-7",
+      "page": 272
+    },
+    {
+      "id": "reps-2027-sokoto-14",
+      "page": 273
+    },
+    {
+      "id": "reps-2027-sokoto-29",
+      "page": 274
+    },
+    {
+      "id": "reps-2027-sokoto-37",
+      "page": 274
+    },
+    {
+      "id": "reps-2027-sokoto-45",
+      "page": 275
+    },
+    {
+      "id": "reps-2027-sokoto-53",
+      "page": 275
+    },
+    {
+      "id": "reps-2027-sokoto-62",
+      "page": 276
+    },
+    {
+      "id": "reps-2027-sokoto-68",
+      "page": 276
+    },
+    {
+      "id": "reps-2027-sokoto-74",
+      "page": 277
+    },
+    {
+      "id": "reps-2027-sokoto-85",
+      "page": 278
+    },
+    {
+      "id": "reps-2027-sokoto-100",
+      "page": 279
+    },
+    {
+      "id": "reps-2027-sokoto-113",
+      "page": 280
+    },
+    {
+      "id": "reps-2027-sokoto-120",
+      "page": 280
+    },
+    {
+      "id": "reps-2027-sokoto-121",
+      "page": 280
+    },
+    {
+      "id": "reps-2027-sokoto-127",
+      "page": 281
+    },
+    {
+      "id": "reps-2027-taraba-6",
+      "page": 283
+    },
+    {
+      "id": "reps-2027-taraba-17",
+      "page": 284
+    },
+    {
+      "id": "reps-2027-taraba-30",
+      "page": 285
+    },
+    {
+      "id": "reps-2027-yobe-2",
+      "page": 289
+    },
+    {
+      "id": "reps-2027-yobe-12",
+      "page": 290
+    },
+    {
+      "id": "reps-2027-yobe-20",
+      "page": 290
+    },
+    {
+      "id": "reps-2027-yobe-42",
+      "page": 292
+    },
+    {
+      "id": "reps-2027-yobe-52",
+      "page": 293
+    },
+    {
+      "id": "reps-2027-zamfara-8",
+      "page": 295
+    },
+    {
+      "id": "reps-2027-zamfara-39",
+      "page": 298
+    }
+  ],
+  "notes": [
+    "Names, party abbreviations, qualifications and remarks preserve the document spelling; whitespace only is normalised.",
+    "State names match map names, and district labels use title case.",
+    "Blank fields remain empty (age null); no qualifications, biographies or policy positions are inferred.",
+    "The supplied document is the source. Its authenticity, election schedule and candidate claims have not been independently verified."
+  ]
+}

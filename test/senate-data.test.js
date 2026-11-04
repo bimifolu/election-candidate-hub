@@ -7,16 +7,16 @@ import { candidates, getDistricts, filterCandidates } from '../data.js';
 
 test('all supplied pages, candidates and districts are represented with unique source IDs', () => {
   assert.equal(senateSource.pages, 127);
-  assert.equal(candidates.length, 1303);
+  assert.equal(senateCandidates.length, 1303);
   assert.equal(senateSource.candidateCount, 1303);
-  assert.equal(new Set(candidates.map(c => c.id)).size, 1303);
-  assert.equal(new Set(candidates.map(c => c.state)).size, 37);
-  assert.equal(new Set(candidates.map(c => `${c.state}/${c.district}`)).size, 109);
-  assert.equal(new Set(candidates.map(c => c.sourcePage)).size, 127);
-  for (const state of new Set(candidates.map(c => c.state))) {
-    const rows = candidates.filter(c => c.state === state);
+  assert.equal(new Set(senateCandidates.map(c => c.id)).size, 1303);
+  assert.equal(new Set(senateCandidates.map(c => c.state)).size, 37);
+  assert.equal(new Set(senateCandidates.map(c => `${c.state}/${c.district}`)).size, 109);
+  assert.equal(new Set(senateCandidates.map(c => c.sourcePage)).size, 127);
+  for (const state of new Set(senateCandidates.map(c => c.state))) {
+    const rows = senateCandidates.filter(c => c.state === state);
     assert.deepEqual(rows.map(c => c.serial), Array.from({ length: rows.length }, (_, i) => i + 1));
-    assert.equal(getDistricts(candidates, state).length, state === 'Federal Capital Territory' ? 1 : 3);
+    assert.equal(getDistricts(senateCandidates, state, 'Senate').length, state === 'Federal Capital Territory' ? 1 : 3);
   }
 });
 
@@ -30,8 +30,8 @@ test('multiline source values and missing qualifications are preserved, without 
   assert.equal(get('senate-2027-abia-3').qualifications, '');
   assert.equal(get('senate-2027-zamfara-37').name, 'MUHAMMAD SANUSI');
   assert.equal(get('senate-2027-zamfara-37').sourcePage, 127);
-  assert.equal(candidates.filter(c => !c.qualifications).length, 72);
-  for (const c of candidates) {
+  assert.equal(senateCandidates.filter(c => !c.qualifications).length, 72);
+  for (const c of senateCandidates) {
     assert.equal(c.office, 'Senate'); assert.equal(c.pwd, 'None'); assert.equal(c.remarks, '');
     assert.ok(Number.isInteger(c.age)); assert.ok(c.age >= 35 && c.age <= 84);
     assert.equal(c.bio, undefined); assert.equal(c.priorities, undefined);
@@ -39,11 +39,11 @@ test('multiline source values and missing qualifications are preserved, without 
 });
 
 test('district-specific results match the supplied Lagos and FCT lists', () => {
-  assert.deepEqual(getDistricts(candidates, 'Lagos'), ['Lagos Central', 'Lagos East', 'Lagos West']);
-  assert.equal(filterCandidates(candidates, { state: 'Lagos', district: 'Lagos Central' }).length, 11);
-  assert.equal(filterCandidates(candidates, { state: 'Lagos', district: 'Lagos East' }).length, 10);
-  assert.equal(filterCandidates(candidates, { state: 'Lagos', district: 'Lagos West' }).length, 15);
-  assert.equal(filterCandidates(candidates, { state: 'Federal Capital Territory' }).length, 20);
+  assert.deepEqual(getDistricts(candidates, 'Lagos', 'Senate'), ['Lagos Central', 'Lagos East', 'Lagos West']);
+  assert.equal(filterCandidates(candidates, { state: 'Lagos', office: 'Senate', district: 'Lagos Central' }).length, 11);
+  assert.equal(filterCandidates(candidates, { state: 'Lagos', office: 'Senate', district: 'Lagos East' }).length, 10);
+  assert.equal(filterCandidates(candidates, { state: 'Lagos', office: 'Senate', district: 'Lagos West' }).length, 15);
+  assert.equal(filterCandidates(candidates, { state: 'Federal Capital Territory', office: 'Senate' }).length, 20);
 });
 
 test('downloadable source PDF matches the supplied document and recorded checksum', async () => {

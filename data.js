@@ -1,16 +1,18 @@
 import { senateCandidates, senateSource } from './senate-data.js';
-export { senateSource };
+import { repsCandidates, repsSource } from './reps-data.js';
+export { senateSource, repsSource };
+export const sourcesByOffice = { Senate: senateSource, 'House of Representatives': repsSource };
 
 const colors = ['rose', 'sage', 'sand', 'lavender', 'peach', 'blue'];
 // Keep the supplied document's names and qualifications intact. These extra
 // fields only support the directory's visual presentation.
-export const candidates = senateCandidates.map((candidate, index) => ({
+export const candidates = [...senateCandidates, ...repsCandidates].map((candidate, index) => ({
   ...candidate,
   initials: candidate.name.trim().split(/\s+/).slice(0, 2).map(word => [...word][0]).join(''),
   color: colors[index % colors.length],
 }));
 
-export function getDistricts(items, state, office = 'Senate') {
+export function getDistricts(items, state, office) {
   if (!state) return [];
   return [...new Set(items.filter(c => c.state === state && c.office === office).map(c => c.district))].sort((a, b) => a.localeCompare(b));
 }
